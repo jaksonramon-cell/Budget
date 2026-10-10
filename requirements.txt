@@ -1,0 +1,4 @@
+nicegui>=3.0
+openpyxl>=3.1
+pydantic>=2.0
+pytest>=8.0

@@ -1,0 +1,1856 @@
+{
+ "params": {
+  "Proyecto": "CBPF – ERAE, AIV, MCMT y ENTRÉNATE (Guaviare, Caquetá, Cauca, Antioquia) – presupuesto APROBADO",
+  "Donante activo (define las categorías del Resumen)": "CBPF",
+  "Moneda de presentación": "USD",
+  "TRM (COP por USD)": 2900,
+  "% costos indirectos": 0.07,
+  "Base de los indirectos": "Costos directos",
+  "Máximo % de indirectos permitido por el donante": 0.07,
+  "TotalDonante": 919803.4
+ },
+ "tarifas": [
+  {
+   "ID tarifa": "HOSP-STAFF",
+   "Zona": "Todas",
+   "Valor": 62.07,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Visitas de seguimiento (E14, E18, E22)"
+  },
+  {
+   "ID tarifa": "HOSP-STAFF",
+   "Zona": "Bogotá",
+   "Valor": 51.72,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Taller de arranque (E7)"
+  },
+  {
+   "ID tarifa": "HOSP-STAFF",
+   "Zona": "Capital departamental",
+   "Valor": 51.72,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Brigadas (E3)"
+  },
+  {
+   "ID tarifa": "HOSP-STAFF",
+   "Zona": "Rural remoto",
+   "Valor": 31.03,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Miraflores (E10)"
+  },
+  {
+   "ID tarifa": "HOSP-PART",
+   "Zona": "Todas",
+   "Valor": 51.72,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "ENTRÉNATE (B13)"
+  },
+  {
+   "ID tarifa": "HOSP-PART",
+   "Zona": "Capital departamental",
+   "Valor": 55.17,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Brigadas (B4), curso Popayán (B27)"
+  },
+  {
+   "ID tarifa": "HOSP-PART",
+   "Zona": "Bogotá",
+   "Valor": 66.0,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Fondo agotable en Bogotá (B8): incluye transporte aeropuerto e interno"
+  },
+  {
+   "ID tarifa": "ALIM",
+   "Zona": "Todas",
+   "Valor": 27.59,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "REFRIG",
+   "Zona": "Todas",
+   "Valor": 3.45,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "TIQ",
+   "Zona": "Todas",
+   "Valor": 344.83,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "TIQ",
+   "Zona": "Rural remoto",
+   "Valor": 517.24,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Miraflores ↔ San José"
+  },
+  {
+   "ID tarifa": "TTE-STAFF",
+   "Zona": "Todas",
+   "Valor": 17.24,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Brigadas: E2 = USD 51,72 por persona por fase de 3 días → 17,24/día"
+  },
+  {
+   "ID tarifa": "TTE-STAFF",
+   "Zona": "Bogotá",
+   "Valor": 86.21,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Taller de arranque (E6)"
+  },
+  {
+   "ID tarifa": "TTE-STAFF",
+   "Zona": "Municipio",
+   "Valor": 103.45,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Visitas de seguimiento (E13, E17, E21)"
+  },
+  {
+   "ID tarifa": "TTE-STAFF",
+   "Zona": "Rural remoto",
+   "Valor": 103.45,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "TTE-PART-LOCAL",
+   "Zona": "Todas",
+   "Valor": 20.6,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "TTE-PART-MUNIC",
+   "Zona": "Todas",
+   "Valor": 41.3,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "SALON",
+   "Zona": "Todas",
+   "Valor": 224.14,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "SALON",
+   "Zona": "Capital departamental",
+   "Valor": 448.28,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "SALON",
+   "Zona": "Bogotá",
+   "Valor": 293.1,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "KIT-PED",
+   "Zona": "Todas",
+   "Valor": 17.24,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "KIT-ENT",
+   "Zona": "Todas",
+   "Valor": 586.0,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Banco v3: 1.699.915 COP (Planeación general)"
+  },
+  {
+   "ID tarifa": "KIT-ERAE",
+   "Zona": "Todas",
+   "Valor": 448.0,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "MAT-DIF",
+   "Zona": "Todas",
+   "Valor": 2.93,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Promedio ponderado: folletos 0,69 · cuadernillos 6,85 · manillas 1,25"
+  },
+  {
+   "ID tarifa": "KIT-SENAL",
+   "Zona": "Todas",
+   "Valor": 86.2,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "DOTAC",
+   "Zona": "Todas",
+   "Valor": 51.72,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "DISP-MOV",
+   "Zona": "Todas",
+   "Valor": 4482.76,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "CASH-EMERG",
+   "Zona": "Todas",
+   "Valor": 517.24,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "SEG-VIDA",
+   "Zona": "Todas",
+   "Valor": 36.2,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "ID tarifa": "CEL-MES",
+   "Zona": "Todas",
+   "Valor": 22.73,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Banco v3: 60.000 COP"
+  },
+  {
+   "ID tarifa": "LAPTOP",
+   "Zona": "Todas",
+   "Valor": 939.73,
+   "Moneda": "USD",
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Incluye seguro del equipo"
+  }
+ ],
+ "cargos": [
+  {
+   "Cargo": "Oficial de cumplimiento",
+   "Costo mensual COP": 14473813.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 4,990.97/mes."
+  },
+  {
+   "Cargo": "Gerente de cooperación e impacto social",
+   "Costo mensual COP": 14473813.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 4,990.97/mes. Banco de salarios 2026: 14,473,800 COP (= USD 4,990.97)."
+  },
+  {
+   "Cargo": "Jefe ERAE y AIV",
+   "Costo mensual COP": 10404011.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 3,587.59/mes. Banco de salarios 2026: 10,449,900 COP (= USD 3,603.41)."
+  },
+  {
+   "Cargo": "Jefe de cooperación y enlace institucional",
+   "Costo mensual COP": 9945057.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 3,429.33/mes."
+  },
+  {
+   "Cargo": "Jefe de género y políticas públicas",
+   "Costo mensual COP": 6500002.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 2,241.38/mes."
+  },
+  {
+   "Cargo": "Profesional de monitoreo y seguimiento",
+   "Costo mensual COP": 6500002.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 2,241.38/mes."
+  },
+  {
+   "Cargo": "Médico fisiatra",
+   "Costo mensual COP": 18359987.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 6,331.03/mes. Banco de salarios 2026: 18,174,876 COP (= USD 6,267.20)."
+  },
+  {
+   "Cargo": "Líder de brigada",
+   "Costo mensual COP": 4589714.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 1,582.66/mes. Banco de salarios 2026: 4,589,705 COP (= USD 1,582.66)."
+  },
+  {
+   "Cargo": "Fisioterapeuta",
+   "Costo mensual COP": 5787994.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 1,995.86/mes. Banco de salarios 2026: 5,571,357 COP (= USD 1,921.16)."
+  },
+  {
+   "Cargo": "Trabajador(a) social",
+   "Costo mensual COP": 3964503.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 1,367.07/mes. Banco de salarios 2026: 3,909,818 COP (= USD 1,348.21)."
+  },
+  {
+   "Cargo": "Técnico ortoprotesista",
+   "Costo mensual COP": 5628117.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 1,940.73/mes. Banco de salarios 2026: 5,820,452 COP (= USD 2,007.05)."
+  },
+  {
+   "Cargo": "Jefe de comunicaciones",
+   "Costo mensual COP": 7343989.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 2,532.41/mes."
+  },
+  {
+   "Cargo": "Profesional audiovisual",
+   "Costo mensual COP": 7343989.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 2,532.41/mes. Banco de salarios 2026: 7,344,000 COP (= USD 2,532.41)."
+  },
+  {
+   "Cargo": "Terapeuta ocupacional",
+   "Costo mensual COP": 5507970.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 1,899.30/mes. Banco de salarios 2026: 5,787,990 COP (= USD 1,995.86)."
+  },
+  {
+   "Cargo": "Analista financiero",
+   "Costo mensual COP": 2999992.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 1,034.48/mes."
+  },
+  {
+   "Cargo": "Auxiliar administrativo",
+   "Costo mensual COP": 2199998.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 758.62/mes."
+  },
+  {
+   "Cargo": "Coordinador(a) departamental",
+   "Costo mensual COP": 6052213.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 2,086.97/mes."
+  },
+  {
+   "Cargo": "Facilitador(a) AICMA",
+   "Costo mensual COP": 3600002.0,
+   "Fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "Estado": "Confirmado",
+   "Notas": "Aprobado: USD 1,241.38/mes."
+  }
+ ],
+ "personal": [
+  {
+   "Código WBS": "0.1",
+   "Cargo": "Oficial de cumplimiento",
+   "Número de personas": 1,
+   "Meses": 10,
+   "Dedicación": 0.2,
+   "Rol y justificación": "[A1] realizar el seguimiento general administrativo y financiero del proyecto en los 4 departamentos, asegurar la calidad de la información, y brindar apoyo financiero a los integrantes del equipo implementador.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "0.1",
+   "Cargo": "Gerente de cooperación e impacto social",
+   "Número de personas": 1,
+   "Meses": 6,
+   "Dedicación": 0.08,
+   "Rol y justificación": "[A2] realizar la coordinación general y estratégica del consorcio implementada por CIREC, asistir a las reuniones de coordinación del consorcio, asegurar la calidad de la implementación y brindar apoyo estratégico para el desarrollo de la implementación de la intervención de CIREC.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.3.1",
+   "Cargo": "Jefe ERAE y AIV",
+   "Número de personas": 1,
+   "Meses": 12,
+   "Dedicación": 0.25,
+   "Rol y justificación": "[A3] realizar la coordinación técnica, el relacionamiento estratégico, la gestión de la seguridad y el acompañamiento de los equipos en el territorio, en los  departamentos priorizados dle proyecto cubiertos por CIREC.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "0.1",
+   "Cargo": "Jefe de cooperación y enlace institucional",
+   "Número de personas": 1,
+   "Meses": 7,
+   "Dedicación": 0.05,
+   "Rol y justificación": "[A4] el acompañamiento y la realización de informes de monitoreo y seguimiento, el informe final y labores de coordinación con el equipo del consorcio, en los 4 departamentos priorizados cubiertos por CIREC.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "0.1",
+   "Cargo": "Jefe de género y políticas públicas",
+   "Número de personas": 1,
+   "Meses": 6,
+   "Dedicación": 1,
+   "Rol y justificación": "[A5] planear, gestionar, brindar asesoría técnica y acompañar la implementación, el monitoreo y el reporte del componente de género en las actividades implementadas por CIREC.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "0.2",
+   "Cargo": "Profesional de monitoreo y seguimiento",
+   "Número de personas": 1,
+   "Meses": 11.5,
+   "Dedicación": 1,
+   "Rol y justificación": "[A6] coordinar y llevar a cabo el monitoreo y reporte del proyecto, la elaboración de informes y la respuesta a los requerimientos del donante para las actividades implementadas por CIREC.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.2.1",
+   "Cargo": "Médico fisiatra",
+   "Número de personas": 1,
+   "Meses": 8,
+   "Dedicación": 0.15,
+   "Rol y justificación": "[A7] diagnosticar, pronosticar y formular los dispositivos de movilidad para los beneficiarios de las brigadas de rehabilitación física.  Capacidad de atención promedio por brigada: 12 personas.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.2.1",
+   "Cargo": "Líder de brigada",
+   "Número de personas": 1,
+   "Meses": 8,
+   "Dedicación": 0.15,
+   "Rol y justificación": "[A8] coordinar y ser el enlace territorial para el levantamiento de la línea de base y la caracterización de las personas para protetización, y  responsable de la coordinación logística para el desplazamiento del equipo médico al territorio y de los beneficiarios que reciben atención en Bogotá. Coordinación con entes territoriales, organización de la agenda de profesionales de salud, organización de agenda de beneficiarios,",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.2.1",
+   "Cargo": "Fisioterapeuta",
+   "Número de personas": 1,
+   "Meses": 8,
+   "Dedicación": 0.15,
+   "Rol y justificación": "[A9] acompañar la terapia física en la fase de preprotetización, prueba de montaje y protetización para beneficiarios de rehabilitación física Capacidad de atención promedio por brigada: 12 personas.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.2.1",
+   "Cargo": "Trabajador(a) social",
+   "Número de personas": 1,
+   "Meses": 10,
+   "Dedicación": 0.15,
+   "Rol y justificación": "[A10] el levantamiento de información psicosocial y la activación en ruta de salud de los beneficiarios del proyecto en las brigadas de rehabilitación.  Capacidad de atención promedio por brigada: 12 personas.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.2.1",
+   "Cargo": "Técnico ortoprotesista",
+   "Número de personas": 1,
+   "Meses": 8,
+   "Dedicación": 0.15,
+   "Rol y justificación": "[A11] la toma de medidas y moldes, y posteriormente la elaboración de las prótesis.  Capacidad de atención promedio por brigada: 12 personas.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "0.1",
+   "Cargo": "Jefe de comunicaciones",
+   "Número de personas": 1,
+   "Meses": 7,
+   "Dedicación": 0.05,
+   "Rol y justificación": "[A12] planear y acompañar la ejecución y el desarrollo de la estrategia de comunicaciones de los componentes implementados por CIREC, así como la elaboración, edición y diseño de piezas de comunicación, productos audiovisuales y otros productos relacionados. Establecer comité con los socios del convenio para crear la estrategia de comunicaciones y divulgación del proyecto.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "0.1",
+   "Cargo": "Profesional audiovisual",
+   "Número de personas": 1,
+   "Meses": 9,
+   "Dedicación": 0.05,
+   "Rol y justificación": "[A13] realizar al menos 1 publicación mensual que narre resultados del proyecto cuando este lo permita. Al menos 1 pieza comunicativa del proyecto, al menos 30 fotografías,  incluyendo su realización, edición y creación.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.2.1",
+   "Cargo": "Terapeuta ocupacional",
+   "Número de personas": 1,
+   "Meses": 6,
+   "Dedicación": 0.16,
+   "Rol y justificación": "[A14] Realizar y hacer segumiento a terapias de los beneficiarios de dispositivos de movilidad en brigada. Capacidad de atención promedio por brigada: 12 personas.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "0.1",
+   "Cargo": "Analista financiero",
+   "Número de personas": 1,
+   "Meses": 11,
+   "Dedicación": 1,
+   "Rol y justificación": "[A15] gestionar el monitoreo, control, evaluación y seguimiento control de la ejecución presupuestal y financiera del proyecto, elaboración de informes ejecutivos financieros.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "0.1",
+   "Cargo": "Auxiliar administrativo",
+   "Número de personas": 1,
+   "Meses": 11,
+   "Dedicación": 1,
+   "Rol y justificación": "[A16] apoyo a tareas administrativas básicas como: solicitud de anticiposm, tiquetes, revisión de facturación con documentación requerida, revisión de pagos, diligenciamiento de formatos administrativos, selección de proveedores con cumplimiento de normas.",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.3.1",
+   "Cargo": "Coordinador(a) departamental",
+   "Número de personas": 4,
+   "Meses": 11,
+   "Dedicación": 1,
+   "Rol y justificación": "[A17] coordinar y supervisar la implementación directa en territorio, realizar talleres ERAE y de género, compilar la información para reporte a donantes y a la autoridad nacional, establecer el enlace comunitario con autoridades locales, líderes y comunidades, apoyar la elaboración de informes y reportes, y asegurar la implementación financiera y operativa de los componentes del proyecto en los departamentos asignados a CIREC (Cauca, Caquetá, Guaviare y Antioquia).",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.3.1",
+   "Cargo": "Facilitador(a) AICMA",
+   "Número de personas": 8,
+   "Meses": 9,
+   "Dedicación": 1,
+   "Rol y justificación": "[A18] realizar las convocatorias y la organización comunitaria para los talleres ERAE y Mi Cuerpo Mi Territorio, levantar evidencia, ejecutar el presupuesto de las actividades y mantener el relacionamiento con comunidades y autoridades en los municipios asignados a CIREC.",
+   "Estado": "Confirmado"
+  }
+ ],
+ "otros": [
+  {
+   "Código WBS": "1.2.1",
+   "ID tarifa": "DISP-MOV",
+   "Zona": null,
+   "Cantidad": 48,
+   "Factor": 1,
+   "Unidad del factor": "vez",
+   "Bloque (si difiere)": null,
+   "Justificación": "[B1] Dispositivos formulados en las 4 brigadas (12 por brigada)",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.2.1",
+   "ID tarifa": "DISP-MOV",
+   "Zona": null,
+   "Cantidad": 15,
+   "Factor": 1,
+   "Unidad del factor": "vez",
+   "Bloque (si difiere)": null,
+   "Justificación": "[B2] Fondo agotable de emergencia – atención en Bogotá",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.2.1",
+   "ID tarifa": "TIQ",
+   "Zona": "Rural remoto",
+   "Cantidad": 2,
+   "Factor": 3,
+   "Unidad del factor": "fases",
+   "Bloque (si difiere)": null,
+   "Justificación": "[B6] 2 beneficiarios de Miraflores a la brigada de San José",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.2.1",
+   "ID tarifa": "TIQ",
+   "Zona": null,
+   "Cantidad": 15,
+   "Factor": 3,
+   "Unidad del factor": "fases",
+   "Bloque (si difiere)": null,
+   "Justificación": "[B7] Fondo agotable: traslado de 15 beneficiarios a Bogotá en 3 fases",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.2.2",
+   "ID tarifa": "TIQ",
+   "Zona": "Rural remoto",
+   "Cantidad": 2,
+   "Factor": 1,
+   "Unidad del factor": "vez",
+   "Bloque (si difiere)": null,
+   "Justificación": "[B15] 2 asistentes ENTRÉNATE desde Miraflores",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.2.3",
+   "ID tarifa": "CASH-EMERG",
+   "Zona": null,
+   "Cantidad": 20,
+   "Factor": 1,
+   "Unidad del factor": "vez",
+   "Bloque (si difiere)": null,
+   "Justificación": "[B16] Víctimas de nuevos hechos con artefactos explosivos",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.3.1",
+   "ID tarifa": "KIT-ERAE",
+   "Zona": null,
+   "Cantidad": 22,
+   "Factor": 1,
+   "Unidad del factor": "vez",
+   "Bloque (si difiere)": null,
+   "Justificación": "[B17] 4 coordinadores + 8 facilitadoras + 10 curso ERAE Básico",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.3.1",
+   "ID tarifa": "MAT-DIF",
+   "Zona": null,
+   "Cantidad": 7600,
+   "Factor": 1,
+   "Unidad del factor": "vez",
+   "Bloque (si difiere)": null,
+   "Justificación": "[B18] 6.750 ERAE + 850 MCMT",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.3.1",
+   "ID tarifa": "REFRIG",
+   "Zona": null,
+   "Cantidad": 760,
+   "Factor": 10,
+   "Unidad del factor": "meses",
+   "Bloque (si difiere)": null,
+   "Justificación": "[B19] Talleres comunitarios ERAE/MCMT: 760 asistentes por mes",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.3.1",
+   "ID tarifa": "KIT-SENAL",
+   "Zona": null,
+   "Cantidad": 18,
+   "Factor": 1,
+   "Unidad del factor": "vez",
+   "Bloque (si difiere)": null,
+   "Justificación": "[B20] 18 escuelas",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.3.1",
+   "ID tarifa": "DOTAC",
+   "Zona": null,
+   "Cantidad": 17,
+   "Factor": 1,
+   "Unidad del factor": "vez",
+   "Bloque (si difiere)": null,
+   "Justificación": "[B21] Equipo de territorio (chaleco + gorra)",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "1.3.1",
+   "ID tarifa": "KIT-PED",
+   "Zona": null,
+   "Cantidad": 14,
+   "Factor": 1,
+   "Unidad del factor": "vez",
+   "Bloque (si difiere)": null,
+   "Justificación": "[B22] Kits del taller de arranque",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "0.3",
+   "ID tarifa": "SEG-VIDA",
+   "Zona": null,
+   "Cantidad": 28,
+   "Factor": 1,
+   "Unidad del factor": "año",
+   "Bloque (si difiere)": null,
+   "Justificación": "[A19] 28 colaboradores del proyecto",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "0.3",
+   "ID tarifa": "LAPTOP",
+   "Zona": null,
+   "Cantidad": 1,
+   "Factor": 1,
+   "Unidad del factor": "vez",
+   "Bloque (si difiere)": null,
+   "Justificación": "[C1] Monitoreo + jefe ERAE (compartido)",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "0.3",
+   "ID tarifa": "CEL-MES",
+   "Zona": null,
+   "Cantidad": 4,
+   "Factor": 11,
+   "Unidad del factor": "meses",
+   "Bloque (si difiere)": null,
+   "Justificación": "[G1] 4 coordinadores departamentales",
+   "Estado": "Confirmado"
+  }
+ ],
+ "plantillas": [
+  {
+   "Staff viaja": 7,
+   "Staff local": 0,
+   "Staff en avión": 7,
+   "Días staff en sitio": 3,
+   "Noches staff": 3,
+   "Días transporte staff": 3,
+   "Participantes": 12,
+   "Acompañantes": 12,
+   "Días participantes": 2,
+   "Noches participantes": 1,
+   "Porcentaje con hospedaje": 1,
+   "Personas por habitación": 2,
+   "Porcentaje con transporte": 1,
+   "Días de salón": 0,
+   "Alimentación participantes": "Completa",
+   "Tarifa transporte participantes": "TTE-PART-LOCAL",
+   "Kit por participante": null,
+   "Mismos participantes en repeticiones": "Sí",
+   "Estado": "Confirmado",
+   "Notas": "E1–E4 y B3–B5. Equipo: fisiatra, líder de brigada, ortoprotesista, trabajador social, fisioterapeuta, TO, audiovisual.",
+   "Plantilla": "Brigada de rehabilitación (fase)",
+   "Descripción": "Una fase de brigada en un lugar. Repeticiones = 3 fases."
+  },
+  {
+   "Staff viaja": 0,
+   "Staff local": 0,
+   "Staff en avión": 0,
+   "Días staff en sitio": 0,
+   "Noches staff": 0,
+   "Días transporte staff": 0,
+   "Participantes": 15,
+   "Acompañantes": 0,
+   "Días participantes": 3,
+   "Noches participantes": 3,
+   "Porcentaje con hospedaje": 1,
+   "Personas por habitación": 1,
+   "Porcentaje con transporte": 0,
+   "Días de salón": 0,
+   "Alimentación participantes": "Completa",
+   "Tarifa transporte participantes": null,
+   "Kit por participante": null,
+   "Mismos participantes en repeticiones": "Sí",
+   "Estado": "Confirmado",
+   "Notas": "B8–B9. Tiquetes de los beneficiarios en OtrosCostos (B7).",
+   "Plantilla": "Atención en sede Bogotá (fondo agotable)",
+   "Descripción": "Beneficiarios que viajan a la sede CIREC en Bogotá, 3 fases. Personal en sede (sin viáticos)."
+  },
+  {
+   "Staff viaja": 0,
+   "Staff local": 0,
+   "Staff en avión": 0,
+   "Días staff en sitio": 0,
+   "Noches staff": 0,
+   "Días transporte staff": 0,
+   "Participantes": 18,
+   "Acompañantes": 0,
+   "Días participantes": 3,
+   "Noches participantes": 2,
+   "Porcentaje con hospedaje": 1,
+   "Personas por habitación": 1,
+   "Porcentaje con transporte": 1,
+   "Días de salón": 2,
+   "Alimentación participantes": "Completa",
+   "Tarifa transporte participantes": "TTE-PART-LOCAL",
+   "Kit por participante": "KIT-ENT",
+   "Mismos participantes en repeticiones": "Sí",
+   "Estado": "Confirmado",
+   "Notas": "B10–B14. El presupuesto aprobado no incluye personal que viaje a facilitar.",
+   "Plantilla": "Taller ENTRÉNATE",
+   "Descripción": "Taller de 3 días con cuidadores y líderes en cabecera municipal."
+  },
+  {
+   "Staff viaja": 12,
+   "Staff local": 0,
+   "Staff en avión": 12,
+   "Días staff en sitio": 5,
+   "Noches staff": 5,
+   "Días transporte staff": 4,
+   "Participantes": 0,
+   "Acompañantes": 0,
+   "Días participantes": 0,
+   "Noches participantes": 0,
+   "Porcentaje con hospedaje": 0,
+   "Personas por habitación": 1,
+   "Porcentaje con transporte": 0,
+   "Días de salón": 4,
+   "Alimentación participantes": "Ninguna",
+   "Tarifa transporte participantes": null,
+   "Kit por participante": null,
+   "Mismos participantes en repeticiones": "Sí",
+   "Estado": "Confirmado",
+   "Notas": "E5–E8, B23. 4 coordinadores + 8 facilitadoras. El jefe ERAE va como fila complementaria.",
+   "Plantilla": "Taller de arranque (equipo)",
+   "Descripción": "Inducción del equipo implementador en Bogotá."
+  },
+  {
+   "Staff viaja": 0,
+   "Staff local": 2,
+   "Staff en avión": 0,
+   "Días staff en sitio": 4,
+   "Noches staff": 0,
+   "Días transporte staff": 0,
+   "Participantes": 10,
+   "Acompañantes": 0,
+   "Días participantes": 4,
+   "Noches participantes": 4,
+   "Porcentaje con hospedaje": 1,
+   "Personas por habitación": 1,
+   "Porcentaje con transporte": 1,
+   "Días de salón": 4,
+   "Alimentación participantes": "Completa",
+   "Tarifa transporte participantes": "TTE-PART-MUNIC",
+   "Kit por participante": "KIT-PED",
+   "Mismos participantes en repeticiones": "Sí",
+   "Estado": "Confirmado",
+   "Notas": "B24–B28. 2 facilitadores locales.",
+   "Plantilla": "Curso ERAE Básico",
+   "Descripción": "Curso de 4 días para líderes comunitarios."
+  },
+  {
+   "Staff viaja": 1,
+   "Staff local": 0,
+   "Staff en avión": 1,
+   "Días staff en sitio": 3,
+   "Noches staff": 3,
+   "Días transporte staff": 3,
+   "Participantes": 0,
+   "Acompañantes": 0,
+   "Días participantes": 0,
+   "Noches participantes": 0,
+   "Porcentaje con hospedaje": 0,
+   "Personas por habitación": 1,
+   "Porcentaje con transporte": 0,
+   "Días de salón": 0,
+   "Alimentación participantes": "Ninguna",
+   "Tarifa transporte participantes": null,
+   "Kit por participante": null,
+   "Mismos participantes en repeticiones": "Sí",
+   "Estado": "Confirmado",
+   "Notas": "E16–E23. El jefe AIV ajusta a 4 días de alimentación (E15).",
+   "Plantilla": "Visita de seguimiento",
+   "Descripción": "1 profesional viaja a territorio (coordinación, monitoreo, género)."
+  },
+  {
+   "Staff viaja": 1,
+   "Staff local": 0,
+   "Staff en avión": 1,
+   "Días staff en sitio": 7,
+   "Noches staff": 7,
+   "Días transporte staff": 0,
+   "Participantes": 0,
+   "Acompañantes": 0,
+   "Días participantes": 0,
+   "Noches participantes": 0,
+   "Porcentaje con hospedaje": 0,
+   "Personas por habitación": 1,
+   "Porcentaje con transporte": 0,
+   "Días de salón": 0,
+   "Alimentación participantes": "Ninguna",
+   "Tarifa transporte participantes": null,
+   "Kit por participante": null,
+   "Mismos participantes en repeticiones": "Sí",
+   "Estado": "Confirmado",
+   "Notas": "E9–E11. Aprobado: 21 noches pero solo 14 días de alimentación (inconsistente).",
+   "Plantilla": "Visita facilitadora a Miraflores",
+   "Descripción": "Facilitadora AICMA de San José a Miraflores para talleres y señalización."
+  }
+ ],
+ "lugares_extra": [],
+ "wbs": [
+  {
+   "Código WBS": "0",
+   "Nivel": "Resultado",
+   "Nombre": "Gestión, coordinación y transversales"
+  },
+  {
+   "Código WBS": "0.1",
+   "Nivel": "Actividad",
+   "Nombre": "Personal de gestión, administración y comunicaciones"
+  },
+  {
+   "Código WBS": "0.2",
+   "Nivel": "Actividad",
+   "Nombre": "Coordinación, monitoreo y enfoque de género (visitas a territorio)",
+   "Plantilla": "Visita de seguimiento",
+   "Eventos declarados": 22,
+   "Notas": "10 viajes jefe AIV + 8 monitoreo + 4 género. Declarado según la narrativa del presupuesto aprobado; verificar contra el marco lógico."
+  },
+  {
+   "Código WBS": "0.3",
+   "Nivel": "Actividad",
+   "Nombre": "Seguros, equipos y comunicaciones del equipo"
+  },
+  {
+   "Código WBS": "1",
+   "Nivel": "Resultado",
+   "Nombre": "Resultado 1 (nombre según marco lógico)"
+  },
+  {
+   "Código WBS": "1.2",
+   "Nivel": "Producto",
+   "Nombre": "Rehabilitación física e inclusión de sobrevivientes (nombre según marco lógico)"
+  },
+  {
+   "Código WBS": "1.2.1",
+   "Nivel": "Actividad",
+   "Nombre": "Brigadas de rehabilitación física (4 deptos × 3 fases) + fondo agotable en Bogotá",
+   "Plantilla": "Brigada de rehabilitación (fase)",
+   "Eventos declarados": 15,
+   "Participantes declarados": 63,
+   "Perfil de beneficiarios": "Brigadas de rehabilitación",
+   "Notas": "12 fases de brigada + 3 fases en Bogotá; 48 + 15 beneficiarios. Declarado según la narrativa del presupuesto aprobado; verificar contra el marco lógico."
+  },
+  {
+   "Código WBS": "1.2.2",
+   "Nivel": "Actividad",
+   "Nombre": "Talleres ENTRÉNATE (1 por departamento)",
+   "Plantilla": "Taller ENTRÉNATE",
+   "Eventos declarados": 4,
+   "Participantes declarados": 72,
+   "Perfil de beneficiarios": "ENTRÉNATE",
+   "Notas": "12 Guaviare, 15 Caquetá, 22 Cauca, 23 Antioquia. Declarado según la narrativa del presupuesto aprobado; verificar contra el marco lógico."
+  },
+  {
+   "Código WBS": "1.2.3",
+   "Nivel": "Actividad",
+   "Nombre": "Transferencias monetarias de emergencia",
+   "Beneficiarios (si difiere)": 20,
+   "Notas": "20 víctimas de nuevos hechos (B16). Sin perfil asignado: elegir o crear uno."
+  },
+  {
+   "Código WBS": "1.3",
+   "Nivel": "Producto",
+   "Nombre": "ERAE y Mi Cuerpo Mi Territorio (nombre según marco lógico)"
+  },
+  {
+   "Código WBS": "1.3.1",
+   "Nivel": "Actividad",
+   "Nombre": "ERAE y MCMT en territorio: taller de arranque, talleres comunitarios, señalización, Miraflores",
+   "Plantilla": "Taller de arranque (equipo)",
+   "Eventos declarados": 4,
+   "Beneficiarios (si difiere)": 7600,
+   "Perfil de beneficiarios": "Mi Cuerpo Mi Territorio (MCMT)",
+   "Notas": "Beneficiarios: 7.600 asistentes (6.750 ERAE + 850 MCMT, B18). Se usó el perfil MCMT para todos: confirmar el perfil de ERAE. 1 taller de arranque + 3 visitas a Miraflores. Los talleres comunitarios (7.600 asistentes) se costean por unidad en OtrosCostos. Declarado según la narrativa del presupuesto aprobado; verificar contra el marco lógico."
+  },
+  {
+   "Código WBS": "1.3.2",
+   "Nivel": "Actividad",
+   "Nombre": "Curso ERAE Básico (Popayán)",
+   "Plantilla": "Curso ERAE Básico",
+   "Eventos declarados": 1,
+   "Participantes declarados": 10,
+   "Notas": "Sin perfil asignado (líderes comunitarios): elegir o crear uno. Declarado según la narrativa del presupuesto aprobado; verificar contra el marco lógico."
+  }
+ ],
+ "eventos": [
+  {
+   "Código WBS": "1.2.1",
+   "Lugar": "San José del Guaviare",
+   "Descripción": "Brigada Guaviare (3 fases)",
+   "Estado": "Confirmado",
+   "Repeticiones": 3,
+   "Notas": "B5: el título dice solo Guaviare rural, pero la cantidad (288) cubre los 4 departamentos."
+  },
+  {
+   "Código WBS": "1.2.1",
+   "Lugar": "Por definir (Caquetá)",
+   "Descripción": "Brigada Caquetá (3 fases)",
+   "Estado": "Confirmado",
+   "Repeticiones": 3,
+   "Ajuste zona": "Capital departamental",
+   "Notas": "Municipio no definido; se usa la tarifa de capital, como en el aprobado."
+  },
+  {
+   "Código WBS": "1.2.1",
+   "Lugar": "Por definir (Cauca)",
+   "Descripción": "Brigada Cauca (3 fases)",
+   "Estado": "Confirmado",
+   "Repeticiones": 3,
+   "Ajuste zona": "Capital departamental"
+  },
+  {
+   "Código WBS": "1.2.1",
+   "Lugar": "Por definir (Antioquia)",
+   "Descripción": "Brigada Antioquia (3 fases)",
+   "Estado": "Confirmado",
+   "Repeticiones": 3,
+   "Ajuste zona": "Capital departamental"
+  },
+  {
+   "Código WBS": "1.2.1",
+   "Lugar": "Bogotá",
+   "Descripción": "Fondo agotable: atención en sede CIREC (3 fases)",
+   "Estado": "Confirmado",
+   "Repeticiones": 3,
+   "Ajuste plantilla": "Atención en sede Bogotá (fondo agotable)"
+  },
+  {
+   "Código WBS": "1.2.2",
+   "Lugar": "Por definir (Guaviare)",
+   "Descripción": "ENTRÉNATE Guaviare",
+   "Estado": "Confirmado",
+   "Participantes (si difiere)": 12
+  },
+  {
+   "Código WBS": "1.2.2",
+   "Lugar": "Por definir (Caquetá)",
+   "Descripción": "ENTRÉNATE Caquetá",
+   "Estado": "Confirmado",
+   "Participantes (si difiere)": 15
+  },
+  {
+   "Código WBS": "1.2.2",
+   "Lugar": "Por definir (Cauca)",
+   "Descripción": "ENTRÉNATE Cauca",
+   "Estado": "Confirmado",
+   "Participantes (si difiere)": 22
+  },
+  {
+   "Código WBS": "1.2.2",
+   "Lugar": "Por definir (Antioquia)",
+   "Descripción": "ENTRÉNATE Antioquia",
+   "Estado": "Confirmado",
+   "Participantes (si difiere)": 23
+  },
+  {
+   "Código WBS": "1.3.1",
+   "Lugar": "Bogotá",
+   "Descripción": "Taller de arranque – coordinadores y facilitadoras",
+   "Estado": "Confirmado",
+   "Mes": 1
+  },
+  {
+   "Código WBS": "1.3.1",
+   "Lugar": "Bogotá",
+   "Descripción": "Taller de arranque – jefe ERAE y AIV (sin transporte local)",
+   "Estado": "Confirmado",
+   "Mes": 1,
+   "Complementaria": "Sí",
+   "Ajuste staff viaja": 1,
+   "Ajuste staff en avión": 1,
+   "Ajuste días transporte staff": 0,
+   "Ajuste días de salón": 0,
+   "Notas": "Fila complementaria: misma actividad y lugar; no cuenta como evento nuevo."
+  },
+  {
+   "Código WBS": "1.3.1",
+   "Lugar": "Miraflores (Guaviare)",
+   "Descripción": "Visitas facilitadora AICMA a Miraflores",
+   "Estado": "Confirmado",
+   "Repeticiones": 3,
+   "Ajuste plantilla": "Visita facilitadora a Miraflores",
+   "Notas": "Aprobado: 21 noches pero 14 días de alimentación. El modelo usa 7 días por visita (21 días) → +USD 193,13."
+  },
+  {
+   "Código WBS": "1.3.2",
+   "Lugar": "Popayán",
+   "Descripción": "Curso ERAE Básico",
+   "Estado": "Confirmado"
+  },
+  {
+   "Código WBS": "0.2",
+   "Lugar": "Por definir (Guaviare)",
+   "Descripción": "Jefe AIV – coordinación Guaviare",
+   "Estado": "Confirmado",
+   "Repeticiones": 2,
+   "Ajuste días staff en sitio": 4,
+   "Notas": "E12–E15: 4 días de alimentación, 3 noches, 3 días de transporte por viaje."
+  },
+  {
+   "Código WBS": "0.2",
+   "Lugar": "Por definir (Antioquia)",
+   "Descripción": "Jefe AIV – coordinación Antioquia",
+   "Estado": "Confirmado",
+   "Repeticiones": 2,
+   "Ajuste días staff en sitio": 4,
+   "Notas": null
+  },
+  {
+   "Código WBS": "0.2",
+   "Lugar": "Por definir (Caquetá)",
+   "Descripción": "Jefe AIV – coordinación Caquetá",
+   "Estado": "Confirmado",
+   "Repeticiones": 3,
+   "Ajuste días staff en sitio": 4,
+   "Notas": null
+  },
+  {
+   "Código WBS": "0.2",
+   "Lugar": "Por definir (Cauca)",
+   "Descripción": "Jefe AIV – coordinación Cauca",
+   "Estado": "Confirmado",
+   "Repeticiones": 3,
+   "Ajuste días staff en sitio": 4,
+   "Notas": null
+  },
+  {
+   "Código WBS": "0.2",
+   "Lugar": "Por definir (Guaviare)",
+   "Descripción": "Monitoreo – visita Guaviare",
+   "Estado": "Confirmado",
+   "Repeticiones": 2,
+   "Notas": "E20–E23: 2 viajes por departamento."
+  },
+  {
+   "Código WBS": "0.2",
+   "Lugar": "Por definir (Antioquia)",
+   "Descripción": "Monitoreo – visita Antioquia",
+   "Estado": "Confirmado",
+   "Repeticiones": 2,
+   "Notas": null
+  },
+  {
+   "Código WBS": "0.2",
+   "Lugar": "Por definir (Caquetá)",
+   "Descripción": "Monitoreo – visita Caquetá",
+   "Estado": "Confirmado",
+   "Repeticiones": 2,
+   "Notas": null
+  },
+  {
+   "Código WBS": "0.2",
+   "Lugar": "Por definir (Cauca)",
+   "Descripción": "Monitoreo – visita Cauca",
+   "Estado": "Confirmado",
+   "Repeticiones": 2,
+   "Notas": null
+  },
+  {
+   "Código WBS": "0.2",
+   "Lugar": "Por definir (Guaviare)",
+   "Descripción": "Género – visita Guaviare",
+   "Estado": "Confirmado",
+   "Notas": "E16–E19: 1 viaje por departamento."
+  },
+  {
+   "Código WBS": "0.2",
+   "Lugar": "Por definir (Antioquia)",
+   "Descripción": "Género – visita Antioquia",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "Código WBS": "0.2",
+   "Lugar": "Por definir (Caquetá)",
+   "Descripción": "Género – visita Caquetá",
+   "Estado": "Confirmado",
+   "Notas": null
+  },
+  {
+   "Código WBS": "0.2",
+   "Lugar": "Por definir (Cauca)",
+   "Descripción": "Género – visita Cauca",
+   "Estado": "Confirmado",
+   "Notas": null
+  }
+ ],
+ "mapeo": {
+  "Seguros": [
+   "A. Staff and Other Personnel Costs",
+   "Como en el presupuesto aprobado (A19)."
+  ]
+ },
+ "conciliacion": {
+  "titulo": "Conciliación: presupuesto aprobado CBPF (PRESUP1) vs. este modelo",
+  "subtitulo": "Cada línea del presupuesto aprobado y dónde quedó en el modelo. Verde = cuadra al centavo. Rojo = diferencia (ver comentario).",
+  "lineas": [
+   {
+    "seccion": "A. Personal"
+   },
+   {
+    "linea": "A1",
+    "concepto": "Oficial de cumplimiento",
+    "aprobado": 9981.94,
+    "donde": "Personal › Oficial de cumplimiento",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Oficial de cumplimiento\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A2",
+    "concepto": "Gerente de cooperación e impacto social",
+    "aprobado": 2395.67,
+    "donde": "Personal › Gerente de cooperación e impacto social",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Gerente de cooperación e impacto social\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A3",
+    "concepto": "Jefe de ERAE y AIV",
+    "aprobado": 10762.77,
+    "donde": "Personal › Jefe ERAE y AIV",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Jefe ERAE y AIV\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A4",
+    "concepto": "Jefe de cooperación y enlace institucional",
+    "aprobado": 1200.27,
+    "donde": "Personal › Jefe de cooperación y enlace institucional",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Jefe de cooperación y enlace institucional\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A5",
+    "concepto": "Jefe enfoque de género e implementación de políticas públicas",
+    "aprobado": 13448.28,
+    "donde": "Personal › Jefe de género y políticas públicas",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Jefe de género y políticas públicas\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A6",
+    "concepto": "Profesional monitoreo y seguimiento y control.",
+    "aprobado": 25775.87,
+    "donde": "Personal › Profesional de monitoreo y seguimiento",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Profesional de monitoreo y seguimiento\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A7",
+    "concepto": "Médico fisiatra",
+    "aprobado": 7597.24,
+    "donde": "Personal › Médico fisiatra",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Médico fisiatra\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A8",
+    "concepto": "Líder de brigadas en territorio",
+    "aprobado": 1899.19,
+    "donde": "Personal › Líder de brigada",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Líder de brigada\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A9",
+    "concepto": "Fisioterapeuta",
+    "aprobado": 2395.03,
+    "donde": "Personal › Fisioterapeuta",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Fisioterapeuta\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A10",
+    "concepto": "Trabajador social",
+    "aprobado": 2050.6,
+    "donde": "Personal › Trabajador(a) social",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Trabajador(a) social\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A11",
+    "concepto": "Técnico ortoprotesista",
+    "aprobado": 2328.88,
+    "donde": "Personal › Técnico ortoprotesista",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Técnico ortoprotesista\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A12",
+    "concepto": "Jefe de comunicaciones",
+    "aprobado": 886.34,
+    "donde": "Personal › Jefe de comunicaciones",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Jefe de comunicaciones\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A13",
+    "concepto": "Profesional audiovisual",
+    "aprobado": 1139.58,
+    "donde": "Personal › Profesional audiovisual",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Profesional audiovisual\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A14",
+    "concepto": "Terapeuta ocupacional",
+    "aprobado": 1823.33,
+    "donde": "Personal › Terapeuta ocupacional",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Terapeuta ocupacional\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A15",
+    "concepto": "Analista financiero",
+    "aprobado": 11379.28,
+    "donde": "Personal › Analista financiero",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Analista financiero\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A16",
+    "concepto": "Auxiliar administrativo",
+    "aprobado": 8344.82,
+    "donde": "Personal › Auxiliar administrativo",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Auxiliar administrativo\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A17",
+    "concepto": "Coordinador departamental",
+    "aprobado": 91826.68,
+    "donde": "Personal › Coordinador(a) departamental",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Coordinador(a) departamental\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A18",
+    "concepto": "Facilitadoras AICMA en territorio",
+    "aprobado": 89379.36,
+    "donde": "Personal › Facilitador(a) AICMA",
+    "expr": "SUMIFS(tblPersonal[Total COP],tblPersonal[Cargo],\"Facilitador(a) AICMA\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "A19",
+    "concepto": "Seguros de vida para personal del proyecto",
+    "aprobado": 1013.6,
+    "donde": "OtrosCostos › O013 (SEG-VIDA)",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O013\")/TRM",
+    "nota": "Bloque Seguros → mapeado a la categoría A de CBPF, como en el aprobado."
+   },
+   {
+    "seccion": "B. Suministros y materiales"
+   },
+   {
+    "linea": "B1",
+    "concepto": "1.2.1. Dispositivos de movilidad Brigada de rehabilitación (prótesis, ortesis, sillas de ruedas, caminadores, bastones e",
+    "aprobado": 215172.48,
+    "donde": "OtrosCostos › O001",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O001\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B2",
+    "concepto": "1.2.1. Dispositivos de movilidad Brigada de rehabilitación (prótesis, ortesis, sillas de ruedas, caminadores, bastones e",
+    "aprobado": 67241.4,
+    "donde": "OtrosCostos › O002",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O002\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B3",
+    "concepto": "1.2.1. Alimentación para las víctimas beneficiarias de las brigadas de salud y sus acompañantes",
+    "aprobado": 15891.84,
+    "donde": "Eventos 1.2.1 brigadas › Alimentación participantes",
+    "expr": "(SUMIFS(tblEventos[COP Alimentación participantes],tblEventos[Plantilla usada],\"Brigada de rehabilitación (fase)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B4",
+    "concepto": "1.2.1. Hospedaje beneficiarios de brigadas y sus acompañantes para brigadas de rehabilitación en los 4 departamentos",
+    "aprobado": 7944.48,
+    "donde": "Eventos 1.2.1 brigadas › Hospedaje participantes",
+    "expr": "(SUMIFS(tblEventos[COP Hospedaje participantes],tblEventos[Plantilla usada],\"Brigada de rehabilitación (fase)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B5",
+    "concepto": "1.2.1. Desplazamientos terrestres para 48 personas de la zona rural de San josé del Guaviare a la cabecera municipal, má",
+    "aprobado": 5932.8,
+    "donde": "Eventos 1.2.1 brigadas › Transporte participantes",
+    "expr": "(SUMIFS(tblEventos[COP Transporte participantes],tblEventos[Plantilla usada],\"Brigada de rehabilitación (fase)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B6",
+    "concepto": "1.2.1. Tiquetes aéreos Brigada de rehabilitación para beneficiarios provenientes de Miraflores",
+    "aprobado": 3103.44,
+    "donde": "OtrosCostos › O003",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O003\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B7",
+    "concepto": "1.2.1. Tiquetes aéreos para desplazamiento de sobrevivientes con discapacidad en el marco del conflicto armado para aten",
+    "aprobado": 15517.35,
+    "donde": "OtrosCostos › O004",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O004\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B8",
+    "concepto": "1.2.1. Hospedaje para sobrevivientes con discapacidad en el marco del conflicto armado para atención a través de Brigada",
+    "aprobado": 8910.0,
+    "donde": "Evento Bogotá fondo agotable › Hospedaje participantes",
+    "expr": "(SUMIFS(tblEventos[COP Hospedaje participantes],tblEventos[Plantilla usada],\"Atención en sede Bogotá (fondo agotable)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B9",
+    "concepto": "1.2.1. Alimentación 15 beneficiarios de Brigada (fondo agotable) en Bogotá",
+    "aprobado": 3724.65,
+    "donde": "Evento Bogotá fondo agotable › Alimentación participantes",
+    "expr": "(SUMIFS(tblEventos[COP Alimentación participantes],tblEventos[Plantilla usada],\"Atención en sede Bogotá (fondo agotable)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B10",
+    "concepto": "1.2.2. KIT ENTRENATE",
+    "aprobado": 42192.0,
+    "donde": "Eventos 1.2.2 › Materiales y kits",
+    "expr": "(SUMIFS(tblEventos[COP Materiales y kits],tblEventos[Código WBS],\"1.2.2\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B11",
+    "concepto": "1.2.2. Alquiler de espacio taller ENTRENATE en 4 departamentos",
+    "aprobado": 1793.12,
+    "donde": "Eventos 1.2.2 › Alquiler de salones",
+    "expr": "(SUMIFS(tblEventos[COP Alquiler de salones],tblEventos[Código WBS],\"1.2.2\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B12",
+    "concepto": "1.2.2. Alimentación asistentes talleres ENTRENATE de los departamentos y municipio priorizados",
+    "aprobado": 5959.44,
+    "donde": "Eventos 1.2.2 › Alimentación participantes",
+    "expr": "(SUMIFS(tblEventos[COP Alimentación participantes],tblEventos[Código WBS],\"1.2.2\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B13",
+    "concepto": "1.2.2. Hospedaje asistentes a talleres ENTRENATE de los departamentos y municipio priorizados",
+    "aprobado": 7447.68,
+    "donde": "Eventos 1.2.2 › Hospedaje participantes",
+    "expr": "(SUMIFS(tblEventos[COP Hospedaje participantes],tblEventos[Código WBS],\"1.2.2\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B14",
+    "concepto": "1.2.2. Desplazamientos terrestres para asistentes talleres ENTRÉNATE en los 4 departamentos",
+    "aprobado": 1483.2,
+    "donde": "Eventos 1.2.2 › Transporte participantes",
+    "expr": "(SUMIFS(tblEventos[COP Transporte participantes],tblEventos[Código WBS],\"1.2.2\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B15",
+    "concepto": "1.2.2. Tiquetes aéreos para 2 asistentes al curso ENTRÉNATE provenientes de Miraflores, a San José",
+    "aprobado": 1034.48,
+    "donde": "OtrosCostos › O005",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O005\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B16",
+    "concepto": "1.2.3. Cash transfer para ayuda humanitaria en emergencia",
+    "aprobado": 10344.8,
+    "donde": "OtrosCostos › O006",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O006\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B17",
+    "concepto": "1.3.1. Kits ERAE maleta pedagógica",
+    "aprobado": 9856.0,
+    "donde": "OtrosCostos › O007",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O007\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B18",
+    "concepto": "1.3.1. Material de difusión ERAE en emergencia y Mi cuerpo mi territorio (folletos, cuadernilo, manillas (etc)",
+    "aprobado": 22268.0,
+    "donde": "OtrosCostos › O008",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O008\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B19",
+    "concepto": "1.3.1. Refrigerios asistentes talleres ERAE y Mi cuerpo Mi Territorio",
+    "aprobado": 26220.0,
+    "donde": "OtrosCostos › O009",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O009\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B20",
+    "concepto": "1.3.1. Kit de señalización para marcación de escuelas",
+    "aprobado": 1551.6,
+    "donde": "OtrosCostos › O010",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O010\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B21",
+    "concepto": "1.3.1. Dotación equipo territorio",
+    "aprobado": 879.24,
+    "donde": "OtrosCostos › O011",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O011\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B22",
+    "concepto": "1.3.1. Materiales pedagógicos para taller de arranque en ERAE en Bogotá",
+    "aprobado": 241.36,
+    "donde": "OtrosCostos › O012",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O012\")/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B23",
+    "concepto": "1.3.1. Alquiler de espacio fisico para taller de arranque en Bogotá",
+    "aprobado": 1172.4,
+    "donde": "Evento taller de arranque › Alquiler de salones",
+    "expr": "(SUMIFS(tblEventos[COP Alquiler de salones],tblEventos[Plantilla usada],\"Taller de arranque (equipo)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B24",
+    "concepto": "1.3.2. Alquiler de espacio para el curso ERAE Básico en Popayán",
+    "aprobado": 1793.12,
+    "donde": "Evento curso 1.3.2 › Alquiler de salones",
+    "expr": "(SUMIFS(tblEventos[COP Alquiler de salones],tblEventos[Código WBS],\"1.3.2\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B25",
+    "concepto": "1.3.2. Materiales para curso ERAE Básico en Popayán para 10 personas",
+    "aprobado": 172.4,
+    "donde": "Evento curso 1.3.2 › Materiales y kits",
+    "expr": "(SUMIFS(tblEventos[COP Materiales y kits],tblEventos[Código WBS],\"1.3.2\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B26",
+    "concepto": "1.3.2. Alimentación para participantes curso ERAE Básico en popayán",
+    "aprobado": 1324.32,
+    "donde": "Evento curso 1.3.2 › Alimentación participantes + staff",
+    "expr": "(SUMIFS(tblEventos[COP Alimentación participantes],tblEventos[Código WBS],\"1.3.2\")+SUMIFS(tblEventos[COP Alimentación staff],tblEventos[Código WBS],\"1.3.2\"))/TRM",
+    "nota": "El modelo pone la alimentación de los 2 facilitadores (USD 220,72) en el bloque de staff → categoría E (Viajes). El aprobado la puso toda en B."
+   },
+   {
+    "linea": "B27",
+    "concepto": "1.3.2. Hospedaje participante curso ERAE Básico en Popayán",
+    "aprobado": 2206.8,
+    "donde": "Evento curso 1.3.2 › Hospedaje participantes",
+    "expr": "(SUMIFS(tblEventos[COP Hospedaje participantes],tblEventos[Código WBS],\"1.3.2\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "B28",
+    "concepto": "1.3.2. Desplazamientos terrestres para 10 personas para el curso ERAE Básico en Popayán",
+    "aprobado": 413.0,
+    "donde": "Evento curso 1.3.2 › Transporte participantes",
+    "expr": "(SUMIFS(tblEventos[COP Transporte participantes],tblEventos[Código WBS],\"1.3.2\"))/TRM",
+    "nota": null
+   },
+   {
+    "seccion": "C. Equipos"
+   },
+   {
+    "linea": "C1",
+    "concepto": "laptop",
+    "aprobado": 939.73,
+    "donde": "OtrosCostos › O014",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O014\")/TRM",
+    "nota": null
+   },
+   {
+    "seccion": "E. Viajes"
+   },
+   {
+    "linea": "E1",
+    "concepto": "Tiquetes aéreos desplazamiento equipo técnico para Brigadas de Rehabilitación Física en territorio para AIV que requiere",
+    "aprobado": 28965.72,
+    "donde": "Eventos 1.2.1 brigadas › Tiquetes aéreos staff",
+    "expr": "(SUMIFS(tblEventos[COP Tiquetes aéreos staff],tblEventos[Plantilla usada],\"Brigada de rehabilitación (fase)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E2",
+    "concepto": "Desplazamiento terrestre equipo técnico para Brigadas de Rehabilitación Física en territorio para AIV que requieren disp",
+    "aprobado": 4344.48,
+    "donde": "Eventos 1.2.1 brigadas › Transporte terrestre staff",
+    "expr": "(SUMIFS(tblEventos[COP Transporte terrestre staff],tblEventos[Plantilla usada],\"Brigada de rehabilitación (fase)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E3",
+    "concepto": "Hospedaje personal de brigada",
+    "aprobado": 13033.44,
+    "donde": "Eventos 1.2.1 brigadas › Hospedaje staff",
+    "expr": "(SUMIFS(tblEventos[COP Hospedaje staff],tblEventos[Plantilla usada],\"Brigada de rehabilitación (fase)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E4",
+    "concepto": "Alimentación equipo brigadas",
+    "aprobado": 6952.68,
+    "donde": "Eventos 1.2.1 brigadas › Alimentación staff",
+    "expr": "(SUMIFS(tblEventos[COP Alimentación staff],tblEventos[Plantilla usada],\"Brigada de rehabilitación (fase)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E5",
+    "concepto": "Tiquetes aéreos Taller de arranque para equipo implementador (coordinadores, facilitadores AICMA yjefe ERAE)",
+    "aprobado": 4482.79,
+    "donde": "Eventos taller de arranque (2 filas) › Tiquetes aéreos staff",
+    "expr": "(SUMIFS(tblEventos[COP Tiquetes aéreos staff],tblEventos[Plantilla usada],\"Taller de arranque (equipo)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E6",
+    "concepto": "Desplazamientos terrestres del equipo implementador del proyecto en territorio en Bogotá",
+    "aprobado": 4138.08,
+    "donde": "Eventos taller de arranque (2 filas) › Transporte terrestre staff",
+    "expr": "(SUMIFS(tblEventos[COP Transporte terrestre staff],tblEventos[Plantilla usada],\"Taller de arranque (equipo)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E7",
+    "concepto": "Hospedaje taller de arranque en Bogotá para personal implementador",
+    "aprobado": 3361.8,
+    "donde": "Eventos taller de arranque (2 filas) › Hospedaje staff",
+    "expr": "(SUMIFS(tblEventos[COP Hospedaje staff],tblEventos[Plantilla usada],\"Taller de arranque (equipo)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E8",
+    "concepto": "Alimentación equipo implementador del proyecto en taller de arranque",
+    "aprobado": 1793.35,
+    "donde": "Eventos taller de arranque (2 filas) › Alimentación staff",
+    "expr": "(SUMIFS(tblEventos[COP Alimentación staff],tblEventos[Plantilla usada],\"Taller de arranque (equipo)\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E9",
+    "concepto": "Tiquetes aéreos Facilitadores ERAE de San josé a Miraflores",
+    "aprobado": 1551.72,
+    "donde": "Evento Miraflores › Tiquetes aéreos staff",
+    "expr": "(SUMIFS(tblEventos[COP Tiquetes aéreos staff],tblEventos[Plantilla usada],\"Visita facilitadora a Miraflores\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E10",
+    "concepto": "Hospedaje para facilitadores AICMA en Miraflores",
+    "aprobado": 651.63,
+    "donde": "Evento Miraflores › Hospedaje staff",
+    "expr": "(SUMIFS(tblEventos[COP Hospedaje staff],tblEventos[Plantilla usada],\"Visita facilitadora a Miraflores\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E11",
+    "concepto": "Alimentación para los facilitadores AICMA en Miraflores",
+    "aprobado": 386.26,
+    "donde": "Evento Miraflores › Alimentación staff",
+    "expr": "(SUMIFS(tblEventos[COP Alimentación staff],tblEventos[Plantilla usada],\"Visita facilitadora a Miraflores\"))/TRM",
+    "nota": "Aprobado: 1 persona × 14 días. Con 3 visitas de 7 noches, el modelo calcula 21 días de alimentación."
+   },
+   {
+    "linea": "E12",
+    "concepto": "Tiquetes aéreos desplazamiento jefe de AIV",
+    "aprobado": 3448.3,
+    "donde": "Eventos 0.2 'Jefe AIV' › Tiquetes aéreos staff",
+    "expr": "(SUMIFS(tblEventos[COP Tiquetes aéreos staff],tblEventos[Descripción],\"Jefe AIV*\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E13",
+    "concepto": "Desplazamientos terrestres jefe de AIV",
+    "aprobado": 3103.5,
+    "donde": "Eventos 0.2 'Jefe AIV' › Transporte terrestre staff",
+    "expr": "(SUMIFS(tblEventos[COP Transporte terrestre staff],tblEventos[Descripción],\"Jefe AIV*\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E14",
+    "concepto": "Hospedaje jefe de AIV",
+    "aprobado": 1862.1,
+    "donde": "Eventos 0.2 'Jefe AIV' › Hospedaje staff",
+    "expr": "(SUMIFS(tblEventos[COP Hospedaje staff],tblEventos[Descripción],\"Jefe AIV*\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E15",
+    "concepto": "Alimentación jefe de AIV",
+    "aprobado": 1103.6,
+    "donde": "Eventos 0.2 'Jefe AIV' › Alimentación staff",
+    "expr": "(SUMIFS(tblEventos[COP Alimentación staff],tblEventos[Descripción],\"Jefe AIV*\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E16",
+    "concepto": "Tiquetes aéreos desplazamiento profesional apoyo implementación enfoque de género.",
+    "aprobado": 1379.32,
+    "donde": "Eventos 0.2 'Género' › Tiquetes aéreos staff",
+    "expr": "(SUMIFS(tblEventos[COP Tiquetes aéreos staff],tblEventos[Descripción],\"Género*\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E17",
+    "concepto": "Desplazamientos terrestre profesional apoyo implementación enfoque de género.",
+    "aprobado": 1241.4,
+    "donde": "Eventos 0.2 'Género' › Transporte terrestre staff",
+    "expr": "(SUMIFS(tblEventos[COP Transporte terrestre staff],tblEventos[Descripción],\"Género*\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E18",
+    "concepto": "Hospedaje profesional de género",
+    "aprobado": 744.84,
+    "donde": "Eventos 0.2 'Género' › Hospedaje staff",
+    "expr": "(SUMIFS(tblEventos[COP Hospedaje staff],tblEventos[Descripción],\"Género*\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E19",
+    "concepto": "Alimentación para Profesional de género",
+    "aprobado": 331.08,
+    "donde": "Eventos 0.2 'Género' › Alimentación staff",
+    "expr": "(SUMIFS(tblEventos[COP Alimentación staff],tblEventos[Descripción],\"Género*\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E20",
+    "concepto": "Tiquetes aéreos desplazamiento para profesional de monitoreo.",
+    "aprobado": 2758.64,
+    "donde": "Eventos 0.2 'Monitoreo' › Tiquetes aéreos staff",
+    "expr": "(SUMIFS(tblEventos[COP Tiquetes aéreos staff],tblEventos[Descripción],\"Monitoreo*\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E21",
+    "concepto": "Desplazamientos terrestres profesional de monitoreo.",
+    "aprobado": 2482.8,
+    "donde": "Eventos 0.2 'Monitoreo' › Transporte terrestre staff",
+    "expr": "(SUMIFS(tblEventos[COP Transporte terrestre staff],tblEventos[Descripción],\"Monitoreo*\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E22",
+    "concepto": "Hospedaje profesional de monitoreo.",
+    "aprobado": 1489.68,
+    "donde": "Eventos 0.2 'Monitoreo' › Hospedaje staff",
+    "expr": "(SUMIFS(tblEventos[COP Hospedaje staff],tblEventos[Descripción],\"Monitoreo*\"))/TRM",
+    "nota": null
+   },
+   {
+    "linea": "E23",
+    "concepto": "Alimentación profesional de monitoreo",
+    "aprobado": 662.16,
+    "donde": "Eventos 0.2 'Monitoreo' › Alimentación staff",
+    "expr": "(SUMIFS(tblEventos[COP Alimentación staff],tblEventos[Descripción],\"Monitoreo*\"))/TRM",
+    "nota": null
+   },
+   {
+    "seccion": "G. Gastos operativos"
+   },
+   {
+    "linea": "G1",
+    "concepto": "Adquisición paquete telefonia celular para comunicación equipo territorial",
+    "aprobado": 1000.12,
+    "donde": "OtrosCostos › O015",
+    "expr": "SUMIFS(tblOtros[Total COP],tblOtros[ID],\"O015\")/TRM",
+    "nota": null
+   }
+  ],
+  "directo": 859629.35,
+  "psc": 60174.05,
+  "total": 919803.4,
+  "categorias": [
+   [
+    "A. Staff and Other Personnel Costs",
+    285628.73
+   ],
+   [
+    "B. Supplies, Commodities, Materials",
+    481791.4
+   ],
+   [
+    "C. Equipment",
+    939.73
+   ],
+   [
+    "D. Contractual Services",
+    0
+   ],
+   [
+    "E. Travel",
+    90269.37
+   ],
+   [
+    "F. Transfers and Grants to Counterparts",
+    0
+   ],
+   [
+    "G. General Operating and Other Direct Costs",
+    1000.12
+   ]
+  ],
+  "hallazgos": [
+   "1. E11 (Miraflores): 3 visitas × 7 noches = 21 noches de hotel, pero solo 14 días de alimentación. El modelo exige coherencia: o son 21 días de comida (+USD 193,13) o menos noches.",
+   "2. B26 (curso ERAE Básico): la alimentación de los 2 facilitadores está en B (suministros); por su naturaleza es viaje de personal (E). El total no cambia; cambia la categoría.",
+   "3. B5: el título dice 'zona rural de San José del Guaviare', pero la cantidad (288 trayectos = 96 personas × 3 fases) cubre a los beneficiarios de los 4 departamentos.",
+   "4. E2: el transporte terrestre del equipo de brigada (USD 51,72 por persona por fase) equivale a USD 17,24/día, muy por debajo de los USD 103,45/día de las visitas de seguimiento. Vale confirmar si es suficiente.",
+   "5. ENTRÉNATE (1.2.2) y el fondo agotable no tienen personal que viaje: la auditoría lo marca en amarillo para confirmar quién facilita / atiende.",
+   "6. Convenciones distintas en el mismo presupuesto: el jefe AIV tiene 4 días de comida por 3 noches (justificado en E15), pero monitoreo y género tienen 3 y 3. Conviene una regla única.",
+   "7. Salarios: varios costos mensuales aprobados difieren del banco de salarios 2026 (ver Notas en la hoja Cargos)."
+  ]
+ }
+}

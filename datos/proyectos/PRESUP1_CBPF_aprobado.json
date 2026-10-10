@@ -1,0 +1,1040 @@
+{
+ "parametros": {
+  "nombre": "CBPF – ERAE, AIV, MCMT y ENTRÉNATE (presupuesto APROBADO, reconstruido)",
+  "moneda": "USD",
+  "trm_usd": 2900.0
+ },
+ "actividades": [
+  {
+   "codigo": "0",
+   "nombre": "Gestión, coordinación y transversales"
+  },
+  {
+   "codigo": "0.1",
+   "nombre": "Personal de gestión, administración y comunicaciones"
+  },
+  {
+   "codigo": "0.2",
+   "nombre": "Coordinación, monitoreo y enfoque de género (visitas a territorio)",
+   "tipo": "Visita de seguimiento",
+   "eventos_meta": 22,
+   "notas": "10 viajes jefe AIV + 8 monitoreo + 4 género. Declarado según la narrativa del presupuesto aprobado; verificar contra el marco lógico."
+  },
+  {
+   "codigo": "0.3",
+   "nombre": "Seguros, equipos y comunicaciones del equipo"
+  },
+  {
+   "codigo": "1",
+   "nombre": "Resultado 1 (nombre según marco lógico)"
+  },
+  {
+   "codigo": "1.2",
+   "nombre": "Rehabilitación física e inclusión de sobrevivientes (nombre según marco lógico)"
+  },
+  {
+   "codigo": "1.2.1",
+   "nombre": "Brigadas de rehabilitación física (4 deptos × 3 fases) + fondo agotable en Bogotá",
+   "tipo": "Brigada de rehabilitación (fase)",
+   "eventos_meta": 15,
+   "participantes_meta": 63,
+   "notas": "12 fases de brigada + 3 fases en Bogotá; 48 + 15 beneficiarios. Declarado según la narrativa del presupuesto aprobado; verificar contra el marco lógico."
+  },
+  {
+   "codigo": "1.2.2",
+   "nombre": "Talleres ENTRÉNATE (1 por departamento)",
+   "tipo": "Taller ENTRÉNATE",
+   "eventos_meta": 4,
+   "participantes_meta": 72,
+   "notas": "12 Guaviare, 15 Caquetá, 22 Cauca, 23 Antioquia. Declarado según la narrativa del presupuesto aprobado; verificar contra el marco lógico."
+  },
+  {
+   "codigo": "1.2.3",
+   "nombre": "Transferencias monetarias de emergencia",
+   "notas": "20 víctimas de nuevos hechos (B16). Sin perfil asignado: elegir o crear uno."
+  },
+  {
+   "codigo": "1.3",
+   "nombre": "ERAE y Mi Cuerpo Mi Territorio (nombre según marco lógico)"
+  },
+  {
+   "codigo": "1.3.1",
+   "nombre": "ERAE y MCMT en territorio: taller de arranque, talleres comunitarios, señalización, Miraflores",
+   "tipo": "Taller de arranque (equipo)",
+   "eventos_meta": 4,
+   "notas": "Beneficiarios: 7.600 asistentes (6.750 ERAE + 850 MCMT, B18). Se usó el perfil MCMT para todos: confirmar el perfil de ERAE. 1 taller de arranque + 3 visitas a Miraflores. Los talleres comunitarios (7.600 asistentes) se costean por unidad en OtrosCostos. Declarado según la narrativa del presupuesto aprobado; verificar contra el marco lógico."
+  },
+  {
+   "codigo": "1.3.2",
+   "nombre": "Curso ERAE Básico (Popayán)",
+   "tipo": "Curso ERAE Básico",
+   "eventos_meta": 1,
+   "participantes_meta": 10,
+   "notas": "Sin perfil asignado (líderes comunitarios): elegir o crear uno. Declarado según la narrativa del presupuesto aprobado; verificar contra el marco lógico."
+  }
+ ],
+ "eventos": [
+  {
+   "actividad": "1.2.1",
+   "lugar": "San José del Guaviare",
+   "repeticiones": 3,
+   "descripcion": "Brigada Guaviare",
+   "grupos_extra": [
+    {
+     "nombre": "Beneficiarios de Miraflores",
+     "personas": 2.0,
+     "llegada": "aereo",
+     "dias": 2.0,
+     "zona_tarifas": "Rural remoto",
+     "beneficiarios": false,
+     "notas": "Tiquete Miraflores ↔ San José"
+    }
+   ],
+   "no_necesario": {
+    "Beneficiarios de Miraflores:transporte": "Presupuesto aprobado: solo tiquetes; incluidos en el grupo principal – verificar",
+    "Beneficiarios de Miraflores:hospedaje": "Presupuesto aprobado: solo tiquetes; incluidos en el grupo principal – verificar",
+    "Beneficiarios de Miraflores:alimentacion": "Presupuesto aprobado: solo tiquetes; incluidos en el grupo principal – verificar"
+   },
+   "notas": "B6: 2 beneficiarios de Miraflores vuelan a la brigada."
+  },
+  {
+   "actividad": "1.2.1",
+   "lugar": "Por definir (Caquetá)",
+   "repeticiones": 3,
+   "descripcion": "Brigada Caquetá",
+   "zona": "Capital departamental"
+  },
+  {
+   "actividad": "1.2.1",
+   "lugar": "Por definir (Cauca)",
+   "repeticiones": 3,
+   "descripcion": "Brigada Cauca",
+   "zona": "Capital departamental"
+  },
+  {
+   "actividad": "1.2.1",
+   "lugar": "Por definir (Antioquia)",
+   "repeticiones": 3,
+   "descripcion": "Brigada Antioquia",
+   "zona": "Capital departamental"
+  },
+  {
+   "actividad": "1.2.1",
+   "lugar": "Bogotá",
+   "repeticiones": 3,
+   "descripcion": "Fondo agotable",
+   "tipo": "Atención en sede Bogotá (fondo agotable)"
+  },
+  {
+   "actividad": "1.2.2",
+   "lugar": "Por definir (Guaviare)",
+   "descripcion": "ENTRÉNATE Guaviare",
+   "ajustes": {
+    "Asistentes": {
+     "personas": 12
+    }
+   },
+   "grupos_extra": [
+    {
+     "nombre": "Beneficiarios de Miraflores",
+     "personas": 2.0,
+     "llegada": "aereo",
+     "dias": 3.0,
+     "zona_tarifas": "Rural remoto",
+     "beneficiarios": false
+    }
+   ],
+   "no_necesario": {
+    "Beneficiarios de Miraflores:transporte": "Presupuesto aprobado: solo tiquetes; incluidos en el grupo principal – verificar",
+    "Beneficiarios de Miraflores:hospedaje": "Presupuesto aprobado: solo tiquetes; incluidos en el grupo principal – verificar",
+    "Beneficiarios de Miraflores:alimentacion": "Presupuesto aprobado: solo tiquetes; incluidos en el grupo principal – verificar"
+   },
+   "notas": "B15: 2 asistentes vuelan desde Miraflores."
+  },
+  {
+   "actividad": "1.2.2",
+   "lugar": "Por definir (Caquetá)",
+   "descripcion": "ENTRÉNATE Caquetá",
+   "ajustes": {
+    "Asistentes": {
+     "personas": 15
+    }
+   }
+  },
+  {
+   "actividad": "1.2.2",
+   "lugar": "Por definir (Cauca)",
+   "descripcion": "ENTRÉNATE Cauca",
+   "ajustes": {
+    "Asistentes": {
+     "personas": 22
+    }
+   }
+  },
+  {
+   "actividad": "1.2.2",
+   "lugar": "Por definir (Antioquia)",
+   "descripcion": "ENTRÉNATE Antioquia",
+   "ajustes": {
+    "Asistentes": {
+     "personas": 23
+    }
+   }
+  },
+  {
+   "actividad": "1.3.1",
+   "lugar": "Bogotá",
+   "descripcion": "Taller de arranque",
+   "grupos_extra": [
+    {
+     "nombre": "Jefe ERAE y AIV",
+     "rol": "equipo",
+     "personas": 1.0,
+     "llegada": "aereo",
+     "dias": 5.0,
+     "noches": 5.0,
+     "dias_transporte": 0.0
+    }
+   ],
+   "notas": "El aprobado no da transporte local en Bogotá al jefe ERAE (E6 = 12 personas)."
+  },
+  {
+   "actividad": "1.3.1",
+   "lugar": "Miraflores (Guaviare)",
+   "repeticiones": 3,
+   "descripcion": "Visitas a Miraflores",
+   "tipo": "Visita facilitadora a Miraflores",
+   "notas": "Aprobado: 21 noches pero 14 días de alimentación. El modelo da 21 días → +USD 193,13 (E11)."
+  },
+  {
+   "actividad": "1.3.2",
+   "lugar": "Popayán",
+   "descripcion": "Curso ERAE Básico"
+  },
+  {
+   "actividad": "0.2",
+   "lugar": "Por definir (Guaviare)",
+   "repeticiones": 2,
+   "descripcion": "Jefe AIV – Guaviare",
+   "ajustes": {
+    "Profesional": {
+     "dias": 4,
+     "dias_transporte": 3
+    }
+   }
+  },
+  {
+   "actividad": "0.2",
+   "lugar": "Por definir (Antioquia)",
+   "repeticiones": 2,
+   "descripcion": "Jefe AIV – Antioquia",
+   "ajustes": {
+    "Profesional": {
+     "dias": 4,
+     "dias_transporte": 3
+    }
+   }
+  },
+  {
+   "actividad": "0.2",
+   "lugar": "Por definir (Caquetá)",
+   "repeticiones": 3,
+   "descripcion": "Jefe AIV – Caquetá",
+   "ajustes": {
+    "Profesional": {
+     "dias": 4,
+     "dias_transporte": 3
+    }
+   }
+  },
+  {
+   "actividad": "0.2",
+   "lugar": "Por definir (Cauca)",
+   "repeticiones": 3,
+   "descripcion": "Jefe AIV – Cauca",
+   "ajustes": {
+    "Profesional": {
+     "dias": 4,
+     "dias_transporte": 3
+    }
+   }
+  },
+  {
+   "actividad": "0.2",
+   "lugar": "Por definir (Guaviare)",
+   "repeticiones": 2,
+   "descripcion": "Monitoreo – Guaviare"
+  },
+  {
+   "actividad": "0.2",
+   "lugar": "Por definir (Antioquia)",
+   "repeticiones": 2,
+   "descripcion": "Monitoreo – Antioquia"
+  },
+  {
+   "actividad": "0.2",
+   "lugar": "Por definir (Caquetá)",
+   "repeticiones": 2,
+   "descripcion": "Monitoreo – Caquetá"
+  },
+  {
+   "actividad": "0.2",
+   "lugar": "Por definir (Cauca)",
+   "repeticiones": 2,
+   "descripcion": "Monitoreo – Cauca"
+  },
+  {
+   "actividad": "0.2",
+   "lugar": "Por definir (Guaviare)",
+   "descripcion": "Género – Guaviare"
+  },
+  {
+   "actividad": "0.2",
+   "lugar": "Por definir (Antioquia)",
+   "descripcion": "Género – Antioquia"
+  },
+  {
+   "actividad": "0.2",
+   "lugar": "Por definir (Caquetá)",
+   "descripcion": "Género – Caquetá"
+  },
+  {
+   "actividad": "0.2",
+   "lugar": "Por definir (Cauca)",
+   "descripcion": "Género – Cauca"
+  }
+ ],
+ "personal": [
+  {
+   "actividad": "0.1",
+   "cargo": "Oficial de cumplimiento",
+   "meses": 10.0,
+   "dedicacion": 0.2,
+   "notas": "[A1] realizar el seguimiento general administrativo y financiero del proyecto en los 4 departamentos, asegurar la calidad de la información, y brindar apoyo financiero a los integrantes del equipo implementador."
+  },
+  {
+   "actividad": "0.1",
+   "cargo": "Gerente de cooperación e impacto social",
+   "meses": 6.0,
+   "dedicacion": 0.08,
+   "notas": "[A2] realizar la coordinación general y estratégica del consorcio implementada por CIREC, asistir a las reuniones de coordinación del consorcio, asegurar la calidad de la implementación y brindar apoyo estratégico para el desarrollo de la implementación de la intervención de CIREC."
+  },
+  {
+   "actividad": "1.3.1",
+   "cargo": "Jefe ERAE y AIV",
+   "meses": 12.0,
+   "dedicacion": 0.25,
+   "notas": "[A3] realizar la coordinación técnica, el relacionamiento estratégico, la gestión de la seguridad y el acompañamiento de los equipos en el territorio, en los  departamentos priorizados dle proyecto cubiertos por CIREC."
+  },
+  {
+   "actividad": "0.1",
+   "cargo": "Jefe de cooperación y enlace institucional",
+   "meses": 7.0,
+   "dedicacion": 0.05,
+   "notas": "[A4] el acompañamiento y la realización de informes de monitoreo y seguimiento, el informe final y labores de coordinación con el equipo del consorcio, en los 4 departamentos priorizados cubiertos por CIREC."
+  },
+  {
+   "actividad": "0.1",
+   "cargo": "Jefe de género y políticas públicas",
+   "meses": 6.0,
+   "notas": "[A5] planear, gestionar, brindar asesoría técnica y acompañar la implementación, el monitoreo y el reporte del componente de género en las actividades implementadas por CIREC."
+  },
+  {
+   "actividad": "0.2",
+   "cargo": "Profesional de monitoreo y seguimiento",
+   "meses": 11.5,
+   "notas": "[A6] coordinar y llevar a cabo el monitoreo y reporte del proyecto, la elaboración de informes y la respuesta a los requerimientos del donante para las actividades implementadas por CIREC."
+  },
+  {
+   "actividad": "1.2.1",
+   "cargo": "Médico fisiatra",
+   "meses": 8.0,
+   "dedicacion": 0.15,
+   "notas": "[A7] diagnosticar, pronosticar y formular los dispositivos de movilidad para los beneficiarios de las brigadas de rehabilitación física.  Capacidad de atención promedio por brigada: 12 personas."
+  },
+  {
+   "actividad": "1.2.1",
+   "cargo": "Líder de brigada",
+   "meses": 8.0,
+   "dedicacion": 0.15,
+   "notas": "[A8] coordinar y ser el enlace territorial para el levantamiento de la línea de base y la caracterización de las personas para protetización, y  responsable de la coordinación logística para el desplazamiento del equipo médico al territorio y de los beneficiarios que reciben atención en Bogotá. Coordinación con entes territoriales, organización de la agenda de profesionales de salud, organización de agenda de beneficiarios,"
+  },
+  {
+   "actividad": "1.2.1",
+   "cargo": "Fisioterapeuta",
+   "meses": 8.0,
+   "dedicacion": 0.15,
+   "notas": "[A9] acompañar la terapia física en la fase de preprotetización, prueba de montaje y protetización para beneficiarios de rehabilitación física Capacidad de atención promedio por brigada: 12 personas."
+  },
+  {
+   "actividad": "1.2.1",
+   "cargo": "Trabajador(a) social",
+   "meses": 10.0,
+   "dedicacion": 0.15,
+   "notas": "[A10] el levantamiento de información psicosocial y la activación en ruta de salud de los beneficiarios del proyecto en las brigadas de rehabilitación.  Capacidad de atención promedio por brigada: 12 personas."
+  },
+  {
+   "actividad": "1.2.1",
+   "cargo": "Técnico ortoprotesista",
+   "meses": 8.0,
+   "dedicacion": 0.15,
+   "notas": "[A11] la toma de medidas y moldes, y posteriormente la elaboración de las prótesis.  Capacidad de atención promedio por brigada: 12 personas."
+  },
+  {
+   "actividad": "0.1",
+   "cargo": "Jefe de comunicaciones",
+   "meses": 7.0,
+   "dedicacion": 0.05,
+   "notas": "[A12] planear y acompañar la ejecución y el desarrollo de la estrategia de comunicaciones de los componentes implementados por CIREC, así como la elaboración, edición y diseño de piezas de comunicación, productos audiovisuales y otros productos relacionados. Establecer comité con los socios del convenio para crear la estrategia de comunicaciones y divulgación del proyecto."
+  },
+  {
+   "actividad": "0.1",
+   "cargo": "Profesional audiovisual",
+   "meses": 9.0,
+   "dedicacion": 0.05,
+   "notas": "[A13] realizar al menos 1 publicación mensual que narre resultados del proyecto cuando este lo permita. Al menos 1 pieza comunicativa del proyecto, al menos 30 fotografías,  incluyendo su realización, edición y creación."
+  },
+  {
+   "actividad": "1.2.1",
+   "cargo": "Terapeuta ocupacional",
+   "meses": 6.0,
+   "dedicacion": 0.16,
+   "notas": "[A14] Realizar y hacer segumiento a terapias de los beneficiarios de dispositivos de movilidad en brigada. Capacidad de atención promedio por brigada: 12 personas."
+  },
+  {
+   "actividad": "0.1",
+   "cargo": "Analista financiero",
+   "meses": 11.0,
+   "notas": "[A15] gestionar el monitoreo, control, evaluación y seguimiento control de la ejecución presupuestal y financiera del proyecto, elaboración de informes ejecutivos financieros."
+  },
+  {
+   "actividad": "0.1",
+   "cargo": "Auxiliar administrativo",
+   "meses": 11.0,
+   "notas": "[A16] apoyo a tareas administrativas básicas como: solicitud de anticiposm, tiquetes, revisión de facturación con documentación requerida, revisión de pagos, diligenciamiento de formatos administrativos, selección de proveedores con cumplimiento de normas."
+  },
+  {
+   "actividad": "1.3.1",
+   "cargo": "Coordinador(a) departamental",
+   "personas": 4.0,
+   "meses": 11.0,
+   "notas": "[A17] coordinar y supervisar la implementación directa en territorio, realizar talleres ERAE y de género, compilar la información para reporte a donantes y a la autoridad nacional, establecer el enlace comunitario con autoridades locales, líderes y comunidades, apoyar la elaboración de informes y reportes, y asegurar la implementación financiera y operativa de los componentes del proyecto en los departamentos asignados a CIREC (Cauca, Caquetá, Guaviare y Antioquia)."
+  },
+  {
+   "actividad": "1.3.1",
+   "cargo": "Facilitador(a) AICMA",
+   "personas": 8.0,
+   "meses": 9.0,
+   "notas": "[A18] realizar las convocatorias y la organización comunitaria para los talleres ERAE y Mi Cuerpo Mi Territorio, levantar evidencia, ejecutar el presupuesto de las actividades y mantener el relacionamiento con comunidades y autoridades en los municipios asignados a CIREC."
+  }
+ ],
+ "otros": [
+  {
+   "actividad": "1.2.1",
+   "tarifa": "DISP-MOV",
+   "cantidad": 48.0,
+   "notas": "[B1] Dispositivos formulados en las 4 brigadas (12 por brigada)"
+  },
+  {
+   "actividad": "1.2.1",
+   "tarifa": "DISP-MOV",
+   "cantidad": 15.0,
+   "notas": "[B2] Fondo agotable de emergencia – atención en Bogotá"
+  },
+  {
+   "actividad": "1.2.3",
+   "tarifa": "CASH-EMERG",
+   "cantidad": 20.0,
+   "notas": "[B16] Víctimas de nuevos hechos con artefactos explosivos"
+  },
+  {
+   "actividad": "1.3.1",
+   "tarifa": "KIT-ERAE",
+   "cantidad": 22.0,
+   "notas": "[B17] 4 coordinadores + 8 facilitadoras + 10 curso ERAE Básico"
+  },
+  {
+   "actividad": "1.3.1",
+   "tarifa": "MAT-DIF",
+   "cantidad": 7600.0,
+   "notas": "[B18] 6.750 ERAE + 850 MCMT"
+  },
+  {
+   "actividad": "1.3.1",
+   "tarifa": "REFRIG",
+   "cantidad": 760.0,
+   "factor": 10.0,
+   "unidad_factor": "meses",
+   "notas": "[B19] Talleres comunitarios ERAE/MCMT: 760 asistentes por mes"
+  },
+  {
+   "actividad": "1.3.1",
+   "tarifa": "KIT-SENAL",
+   "cantidad": 18.0,
+   "notas": "[B20] 18 escuelas"
+  },
+  {
+   "actividad": "1.3.1",
+   "tarifa": "DOTAC",
+   "cantidad": 17.0,
+   "notas": "[B21] Equipo de territorio (chaleco + gorra)"
+  },
+  {
+   "actividad": "1.3.1",
+   "tarifa": "KIT-PED",
+   "cantidad": 14.0,
+   "notas": "[B22] Kits del taller de arranque"
+  },
+  {
+   "actividad": "0.3",
+   "tarifa": "SEG-VIDA",
+   "cantidad": 28.0,
+   "unidad_factor": "año",
+   "notas": "[A19] 28 colaboradores del proyecto"
+  },
+  {
+   "actividad": "0.3",
+   "tarifa": "LAPTOP",
+   "notas": "[C1] Monitoreo + jefe ERAE (compartido)"
+  },
+  {
+   "actividad": "0.3",
+   "tarifa": "CEL-MES",
+   "cantidad": 4.0,
+   "factor": 11.0,
+   "unidad_factor": "meses",
+   "notas": "[G1] 4 coordinadores departamentales"
+  }
+ ],
+ "tarifas": [
+  {
+   "id": "HOSP-STAFF",
+   "valor": 62.07,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Visitas de seguimiento (E14, E18, E22)"
+  },
+  {
+   "id": "HOSP-STAFF",
+   "zona": "Bogotá",
+   "valor": 51.72,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Taller de arranque (E7)"
+  },
+  {
+   "id": "HOSP-STAFF",
+   "zona": "Capital departamental",
+   "valor": 51.72,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Brigadas (E3)"
+  },
+  {
+   "id": "HOSP-STAFF",
+   "zona": "Rural remoto",
+   "valor": 31.03,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Miraflores (E10)"
+  },
+  {
+   "id": "HOSP-PART",
+   "valor": 51.72,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "ENTRÉNATE (B13)"
+  },
+  {
+   "id": "HOSP-PART",
+   "zona": "Capital departamental",
+   "valor": 55.17,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Brigadas (B4), curso Popayán (B27)"
+  },
+  {
+   "id": "HOSP-PART",
+   "zona": "Bogotá",
+   "valor": 66.0,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Fondo agotable en Bogotá (B8): incluye transporte aeropuerto e interno"
+  },
+  {
+   "id": "ALIM",
+   "valor": 27.59,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "REFRIG",
+   "valor": 3.45,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "TIQ",
+   "valor": 344.83,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "TIQ",
+   "zona": "Rural remoto",
+   "valor": 517.24,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Miraflores ↔ San José"
+  },
+  {
+   "id": "TTE-STAFF",
+   "valor": 17.24,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Brigadas: E2 = USD 51,72 por persona por fase de 3 días → 17,24/día"
+  },
+  {
+   "id": "TTE-STAFF",
+   "zona": "Bogotá",
+   "valor": 86.21,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Taller de arranque (E6)"
+  },
+  {
+   "id": "TTE-STAFF",
+   "zona": "Municipio",
+   "valor": 103.45,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Visitas de seguimiento (E13, E17, E21)"
+  },
+  {
+   "id": "TTE-STAFF",
+   "zona": "Rural remoto",
+   "valor": 103.45,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "TTE-PART-LOCAL",
+   "valor": 20.6,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "TTE-PART-MUNIC",
+   "valor": 41.3,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "SALON",
+   "valor": 224.14,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "SALON",
+   "zona": "Capital departamental",
+   "valor": 448.28,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "SALON",
+   "zona": "Bogotá",
+   "valor": 293.1,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "KIT-PED",
+   "valor": 17.24,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "KIT-ENT",
+   "valor": 586.0,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Banco v3: 1.699.915 COP (Planeación general)"
+  },
+  {
+   "id": "KIT-ERAE",
+   "valor": 448.0,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "MAT-DIF",
+   "valor": 2.93,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Promedio ponderado: folletos 0,69 · cuadernillos 6,85 · manillas 1,25"
+  },
+  {
+   "id": "KIT-SENAL",
+   "valor": 86.2,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "DOTAC",
+   "valor": 51.72,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "DISP-MOV",
+   "valor": 4482.76,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "CASH-EMERG",
+   "valor": 517.24,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "SEG-VIDA",
+   "valor": 36.2,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "CEL-MES",
+   "valor": 22.73,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Banco v3: 60.000 COP"
+  },
+  {
+   "id": "LAPTOP",
+   "valor": 939.73,
+   "moneda": "USD",
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Incluye seguro del equipo"
+  }
+ ],
+ "tipos": [
+  {
+   "nombre": "Brigada de rehabilitación (fase)",
+   "descripcion": "Como en el presupuesto aprobado (E1–E4, B3–B5).",
+   "grupos": [
+    {
+     "nombre": "Equipo de brigada",
+     "rol": "equipo",
+     "personas": 7.0,
+     "llegada": "aereo",
+     "dias": 3.0,
+     "noches": 3.0
+    },
+    {
+     "nombre": "Beneficiarios",
+     "personas": 12.0,
+     "llegada": "terrestre",
+     "dias": 2.0,
+     "noches": 1.0,
+     "por_habitacion": 2,
+     "tarifa_transporte": "TTE-PART-LOCAL"
+    },
+    {
+     "nombre": "Acompañantes",
+     "personas": 12.0,
+     "llegada": "terrestre",
+     "dias": 2.0,
+     "noches": 1.0,
+     "por_habitacion": 2,
+     "tarifa_transporte": "TTE-PART-LOCAL",
+     "beneficiarios": false
+    }
+   ]
+  },
+  {
+   "nombre": "Atención en sede Bogotá (fondo agotable)",
+   "descripcion": "B7–B9.",
+   "grupos": [
+    {
+     "nombre": "Beneficiarios",
+     "personas": 15.0,
+     "llegada": "aereo",
+     "dias": 3.0,
+     "noches": 3.0
+    }
+   ],
+   "no_necesario": {
+    "salon": "Se atiende en la sede CIREC",
+    "facilitacion": "Personal de la sede CIREC, pagado en Personal",
+    "Beneficiarios:transporte": "La tarifa de hospedaje en Bogotá (USD 66) incluye transporte aeropuerto e interno"
+   }
+  },
+  {
+   "nombre": "Taller ENTRÉNATE",
+   "descripcion": "B10–B15. El aprobado no incluye personal que viaje a facilitar.",
+   "grupos": [
+    {
+     "nombre": "Asistentes",
+     "personas": 18.0,
+     "llegada": "terrestre",
+     "dias": 3.0,
+     "noches": 2.0,
+     "tarifa_transporte": "TTE-PART-LOCAL"
+    }
+   ],
+   "dias_salon": 2.0,
+   "kits": [
+    {
+     "tarifa": "KIT-ENT"
+    }
+   ]
+  },
+  {
+   "nombre": "Taller de arranque (equipo)",
+   "descripcion": "E5–E8, B23.",
+   "grupos": [
+    {
+     "nombre": "Coordinadores y facilitadoras",
+     "rol": "equipo",
+     "personas": 12.0,
+     "llegada": "aereo",
+     "dias": 5.0,
+     "noches": 5.0,
+     "dias_transporte": 4.0
+    }
+   ],
+   "dias_salon": 4.0
+  },
+  {
+   "nombre": "Curso ERAE Básico",
+   "descripcion": "B24–B28.",
+   "grupos": [
+    {
+     "nombre": "Facilitadores locales",
+     "rol": "equipo",
+     "personas": 2.0,
+     "llegada": "sede",
+     "dias": 4.0
+    },
+    {
+     "nombre": "Participantes",
+     "personas": 10.0,
+     "llegada": "terrestre",
+     "dias": 4.0,
+     "noches": 4.0
+    }
+   ],
+   "dias_salon": 4.0,
+   "kits": [
+    {
+     "tarifa": "KIT-PED"
+    }
+   ]
+  },
+  {
+   "nombre": "Visita de seguimiento",
+   "descripcion": "E12–E23.",
+   "grupos": [
+    {
+     "nombre": "Profesional",
+     "rol": "equipo",
+     "personas": 1.0,
+     "llegada": "aereo",
+     "dias": 3.0,
+     "noches": 3.0
+    }
+   ]
+  },
+  {
+   "nombre": "Visita facilitadora a Miraflores",
+   "descripcion": "E9–E11. Facilitadora AICMA de San José a Miraflores.",
+   "grupos": [
+    {
+     "nombre": "Facilitadora AICMA",
+     "rol": "equipo",
+     "personas": 1.0,
+     "llegada": "aereo",
+     "dias": 7.0,
+     "noches": 7.0,
+     "dias_transporte": 0.0
+    }
+   ]
+  }
+ ],
+ "cargos": [
+  {
+   "cargo": "Oficial de cumplimiento",
+   "costo_mensual_cop": 14473813.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 4,990.97/mes."
+  },
+  {
+   "cargo": "Gerente de cooperación e impacto social",
+   "costo_mensual_cop": 14473813.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 4,990.97/mes. Banco de salarios 2026: 14,473,800 COP (= USD 4,990.97)."
+  },
+  {
+   "cargo": "Jefe ERAE y AIV",
+   "costo_mensual_cop": 10404011.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 3,587.59/mes. Banco de salarios 2026: 10,449,900 COP (= USD 3,603.41)."
+  },
+  {
+   "cargo": "Jefe de cooperación y enlace institucional",
+   "costo_mensual_cop": 9945057.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 3,429.33/mes."
+  },
+  {
+   "cargo": "Jefe de género y políticas públicas",
+   "costo_mensual_cop": 6500002.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 2,241.38/mes."
+  },
+  {
+   "cargo": "Profesional de monitoreo y seguimiento",
+   "costo_mensual_cop": 6500002.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 2,241.38/mes."
+  },
+  {
+   "cargo": "Médico fisiatra",
+   "costo_mensual_cop": 18359987.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 6,331.03/mes. Banco de salarios 2026: 18,174,876 COP (= USD 6,267.20)."
+  },
+  {
+   "cargo": "Líder de brigada",
+   "costo_mensual_cop": 4589714.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 1,582.66/mes. Banco de salarios 2026: 4,589,705 COP (= USD 1,582.66)."
+  },
+  {
+   "cargo": "Fisioterapeuta",
+   "costo_mensual_cop": 5787994.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 1,995.86/mes. Banco de salarios 2026: 5,571,357 COP (= USD 1,921.16)."
+  },
+  {
+   "cargo": "Trabajador(a) social",
+   "costo_mensual_cop": 3964503.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 1,367.07/mes. Banco de salarios 2026: 3,909,818 COP (= USD 1,348.21)."
+  },
+  {
+   "cargo": "Técnico ortoprotesista",
+   "costo_mensual_cop": 5628117.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 1,940.73/mes. Banco de salarios 2026: 5,820,452 COP (= USD 2,007.05)."
+  },
+  {
+   "cargo": "Jefe de comunicaciones",
+   "costo_mensual_cop": 7343989.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 2,532.41/mes."
+  },
+  {
+   "cargo": "Profesional audiovisual",
+   "costo_mensual_cop": 7343989.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 2,532.41/mes. Banco de salarios 2026: 7,344,000 COP (= USD 2,532.41)."
+  },
+  {
+   "cargo": "Terapeuta ocupacional",
+   "costo_mensual_cop": 5507970.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 1,899.30/mes. Banco de salarios 2026: 5,787,990 COP (= USD 1,995.86)."
+  },
+  {
+   "cargo": "Analista financiero",
+   "costo_mensual_cop": 2999992.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 1,034.48/mes."
+  },
+  {
+   "cargo": "Auxiliar administrativo",
+   "costo_mensual_cop": 2199998.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 758.62/mes."
+  },
+  {
+   "cargo": "Coordinador(a) departamental",
+   "costo_mensual_cop": 6052213.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 2,086.97/mes."
+  },
+  {
+   "cargo": "Facilitador(a) AICMA",
+   "costo_mensual_cop": 3600002.0,
+   "fuente": "Presupuesto aprobado CBPF (PRESUP1)",
+   "estado": "Confirmado",
+   "notas": "Aprobado: USD 1,241.38/mes."
+  }
+ ],
+ "mapeo": {
+  "Seguros": {
+   "CBPF": "A. Staff and Other Personnel Costs"
+  }
+ },
+ "chequeo": {
+  "arl": "Todo el personal está vinculado por nómina",
+  "linea_base": "Incluida en el trabajo del profesional de monitoreo",
+  "cierre": "No incluido en el aprobado",
+  "auditoria": "CBPF la cubre con sus propios auditores",
+  "financieros": "No elegible / no incluido",
+  "papeleria": "Cubierto con los costos indirectos (PSC)"
+ },
+ "notas": "Reconstrucción del presupuesto CBPF aprobado. Total aprobado USD 919.803,40. Diferencia conocida: E11 (+USD 193,13 directos)."
+}

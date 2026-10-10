@@ -1,0 +1,240 @@
+{
+ "parametros": {
+  "nombre": "FMD CIREC – brechas detectadas (ejemplo)",
+  "donante": "Fondo Multidonante"
+ },
+ "actividades": [
+  {
+   "codigo": "1.6",
+   "nombre": "Marcación de escuelas con señalización preventiva en 5 municipios",
+   "tipo": "Marcación de escuelas",
+   "eventos_meta": 5
+  },
+  {
+   "codigo": "3.3",
+   "nombre": "Programa ENTRÉNATE de rehabilitación física comunitaria",
+   "tipo": "Taller ENTRÉNATE (como se presupuestó)",
+   "eventos_meta": 1,
+   "participantes_meta": 12
+  },
+  {
+   "codigo": "4.2",
+   "nombre": "Réplicas ERAE lideradas por mujeres",
+   "tipo": "Visita de acompañamiento (como se presupuestó)"
+  },
+  {
+   "codigo": "4.3",
+   "nombre": "Seguimiento y evaluación de desempeño a facilitadores",
+   "tipo": "Visita de seguimiento (como se presupuestó)"
+  }
+ ],
+ "eventos": [
+  {
+   "actividad": "1.6",
+   "lugar": "Por definir (Cauca)",
+   "repeticiones": 5,
+   "descripcion": "5 escuelas"
+  },
+  {
+   "actividad": "3.3",
+   "lugar": "Popayán",
+   "descripcion": "Taller ENTRÉNATE Popayán",
+   "notas": "Presupuestado: 12 noches (= 4 de Caquetá × 3), 36 días de alimentación, 6 trayectos locales, 4+2 tiquetes."
+  },
+  {
+   "actividad": "4.2",
+   "lugar": "Por definir (Cauca)",
+   "repeticiones": 6,
+   "descripcion": "Acompañamiento a réplicas",
+   "notas": "Presupuestado: 24 noches y 25 desplazamientos; sin alimentación."
+  },
+  {
+   "actividad": "4.3",
+   "lugar": "Por definir (Caquetá)",
+   "repeticiones": 9,
+   "descripcion": "Seguimiento a facilitadores",
+   "notas": "Presupuestado: 9 tiquetes. Los 3 días por visita son un supuesto: el presupuesto no lo dice."
+  }
+ ],
+ "personal": [
+  {
+   "actividad": "3.3",
+   "cargo": "Fisioterapeuta",
+   "personas": 2.0,
+   "meses": 3.0,
+   "notas": "En el FMD: 2 fisioterapeutas × 90 días"
+  }
+ ],
+ "tarifas": [
+  {
+   "id": "TIQ",
+   "valor": 1000000.0,
+   "fuente": "Presupuesto FMD CIREC (CIREC_~2.XLS)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "HOSP-STAFF",
+   "valor": 180000.0,
+   "fuente": "Presupuesto FMD CIREC (CIREC_~2.XLS)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "HOSP-PART",
+   "valor": 150000.0,
+   "fuente": "Presupuesto FMD CIREC (CIREC_~2.XLS)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "ALIM",
+   "valor": 80000.0,
+   "fuente": "Presupuesto FMD CIREC (CIREC_~2.XLS)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "REFRIG",
+   "valor": 10000.0,
+   "fuente": "Presupuesto FMD CIREC (CIREC_~2.XLS)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "TTE-STAFF",
+   "valor": 100000.0,
+   "fuente": "Presupuesto FMD CIREC (CIREC_~2.XLS)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "TTE-PART-LOCAL",
+   "valor": 150000.0,
+   "fuente": "Presupuesto FMD CIREC (CIREC_~2.XLS)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "TTE-PART-MUNIC",
+   "valor": 200000.0,
+   "fuente": "Presupuesto FMD CIREC (CIREC_~2.XLS)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "SALON",
+   "valor": 750000.0,
+   "fuente": "Presupuesto FMD CIREC (CIREC_~2.XLS)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "KIT-ENT",
+   "valor": 1400000.0,
+   "fuente": "Presupuesto FMD CIREC (CIREC_~2.XLS)",
+   "estado": "Confirmado"
+  },
+  {
+   "id": "KIT-SENAL",
+   "valor": 525000.0,
+   "fuente": "Presupuesto FMD CIREC (CIREC_~2.XLS)",
+   "estado": "Confirmado"
+  }
+ ],
+ "tipos": [
+  {
+   "nombre": "Taller ENTRÉNATE (como se presupuestó)",
+   "descripcion": "ACT 3.3: taller ENTRÉNATE de 3 días en Popayán, 12 asistentes.",
+   "grupos": [
+    {
+     "nombre": "Asistentes de Popayán",
+     "personas": 6.0,
+     "dias": 3.0
+    },
+    {
+     "nombre": "Asistentes de Caquetá",
+     "personas": 4.0,
+     "llegada": "aereo",
+     "dias": 3.0,
+     "noches": 3.0
+    },
+    {
+     "nombre": "Asistentes de Guapi",
+     "personas": 2.0,
+     "llegada": "aereo",
+     "dias": 3.0,
+     "tarifa_transporte": "TTE-PART-MUNIC",
+     "notas": "Transporte desde su residencia al aeropuerto"
+    }
+   ],
+   "dias_salon": 2.0,
+   "kits": [
+    {
+     "tarifa": "KIT-ENT"
+    }
+   ],
+   "notas": "Fisioterapeutas y profesional social están pagados por días en Personal, pero sin viaje a Popayán."
+  },
+  {
+   "nombre": "Visita de acompañamiento (como se presupuestó)",
+   "descripcion": "ACT 4.2: jefe ERAE / consultora de género acompañan réplicas. Solo transporte y hospedaje.",
+   "grupos": [
+    {
+     "nombre": "Acompañante CIREC",
+     "rol": "equipo",
+     "personas": 1.0,
+     "llegada": "terrestre",
+     "dias": 4.0,
+     "noches": 4.0,
+     "comidas": "ninguna"
+    }
+   ]
+  },
+  {
+   "nombre": "Visita de seguimiento (como se presupuestó)",
+   "descripcion": "ACT 4.3: 9 tiquetes aéreos de seguimiento, sin nada más.",
+   "grupos": [
+    {
+     "nombre": "Profesional de seguimiento",
+     "rol": "equipo",
+     "personas": 1.0,
+     "llegada": "aereo",
+     "dias": 3.0,
+     "comidas": "ninguna",
+     "dias_transporte": 0.0
+    }
+   ]
+  },
+  {
+   "nombre": "Marcación de escuelas",
+   "descripcion": "ACT 1.6: 1 compareciente + 1 coordinador por escuela, viaje de un día.",
+   "grupos": [
+    {
+     "nombre": "Equipo de marcación",
+     "rol": "equipo",
+     "personas": 2.0,
+     "llegada": "terrestre",
+     "dias": 1.0,
+     "unidad_transporte": "trayecto"
+    }
+   ],
+   "kits": [
+    {
+     "tarifa": "KIT-SENAL",
+     "por": "evento"
+    }
+   ],
+   "mismos_participantes": false
+  }
+ ],
+ "chequeo": {
+  "seguros": "Fuera del alcance de este ejemplo parcial",
+  "arl": "Fuera del alcance de este ejemplo parcial",
+  "dotacion": "Fuera del alcance de este ejemplo parcial",
+  "celulares": "Fuera del alcance de este ejemplo parcial",
+  "equipos": "Fuera del alcance de este ejemplo parcial",
+  "coordinacion": "Fuera del alcance de este ejemplo parcial",
+  "administrativo": "Fuera del alcance de este ejemplo parcial",
+  "monitoreo": "Fuera del alcance de este ejemplo parcial",
+  "genero": "Fuera del alcance de este ejemplo parcial",
+  "visibilidad": "Fuera del alcance de este ejemplo parcial",
+  "linea_base": "Fuera del alcance de este ejemplo parcial",
+  "cierre": "Fuera del alcance de este ejemplo parcial",
+  "auditoria": "Fuera del alcance de este ejemplo parcial",
+  "financieros": "Fuera del alcance de este ejemplo parcial",
+  "papeleria": "Fuera del alcance de este ejemplo parcial"
+ },
+ "notas": "Ejemplo: actividades 1.6, 3.3, 4.2 y 4.3 del presupuesto FMD tal como se presupuestaron. Muestra qué marca la revisión. No es un presupuesto completo."
+}

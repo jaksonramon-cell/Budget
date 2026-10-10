@@ -1,0 +1,1559 @@
+{
+ "tarifas": [
+  {
+   "id": "HOSP-STAFF",
+   "concepto": "Hospedaje personal CIREC en territorio",
+   "unidad": "noche-persona",
+   "valor": 180000.0,
+   "bloque": "Hospedaje staff",
+   "fuente": "PRESUP_1 (CBPF) E22/E25/E26 USD 62,07"
+  },
+  {
+   "id": "HOSP-STAFF",
+   "concepto": "Hospedaje personal CIREC en territorio",
+   "unidad": "noche-persona",
+   "zona": "Bogotá",
+   "valor": 150000.0,
+   "bloque": "Hospedaje staff",
+   "fuente": "PRESUP_1 (CBPF) B24 USD 51,72"
+  },
+  {
+   "id": "HOSP-STAFF",
+   "concepto": "Hospedaje personal CIREC en territorio",
+   "unidad": "noche-persona",
+   "zona": "Rural remoto",
+   "valor": 90000.0,
+   "bloque": "Hospedaje staff",
+   "fuente": "PRESUP_1 (CBPF) E23 Miraflores USD 31,03"
+  },
+  {
+   "id": "HOSP-PART",
+   "concepto": "Hospedaje participantes / beneficiarios",
+   "unidad": "habitación-noche",
+   "valor": 150000.0,
+   "bloque": "Hospedaje participantes",
+   "fuente": "PRESUP_1 (CBPF) E3/B22 USD 51,72"
+  },
+  {
+   "id": "HOSP-PART",
+   "concepto": "Hospedaje participantes / beneficiarios",
+   "unidad": "habitación-noche",
+   "zona": "Capital departamental",
+   "valor": 160000.0,
+   "bloque": "Hospedaje participantes",
+   "fuente": "PRESUP_1 (CBPF) E21/E24 USD 55,17"
+  },
+  {
+   "id": "ALIM",
+   "concepto": "Alimentación completa (desayuno, almuerzo, cena)",
+   "unidad": "persona-día",
+   "valor": 80000.0,
+   "bloque": "Alimentación participantes",
+   "fuente": "PRESUP_1 (CBPF) B13/B16/E29 USD 27,59"
+  },
+  {
+   "id": "REFRIG",
+   "concepto": "Refrigerio (bebida + alimento sólido)",
+   "unidad": "unidad",
+   "valor": 10000.0,
+   "bloque": "Alimentación participantes",
+   "fuente": "PRESUP_1 (CBPF) B12 USD 3,45"
+  },
+  {
+   "id": "TIQ",
+   "concepto": "Tiquete aéreo ida y regreso",
+   "unidad": "tiquete",
+   "valor": 1000000.0,
+   "bloque": "Tiquetes aéreos participantes",
+   "fuente": "PRESUP_1 (CBPF) E4/E16/B23 USD 344,83"
+  },
+  {
+   "id": "TIQ",
+   "concepto": "Tiquete aéreo ida y regreso",
+   "unidad": "tiquete",
+   "zona": "Rural remoto",
+   "valor": 1500000.0,
+   "bloque": "Tiquetes aéreos participantes",
+   "fuente": "PRESUP_1 (CBPF) B20/B21/E28 Miraflores USD 517,24"
+  },
+  {
+   "id": "TTE-STAFF",
+   "concepto": "Transporte terrestre personal (aeropuerto + internos)",
+   "unidad": "persona-día",
+   "valor": 50000.0,
+   "bloque": "Transporte terrestre staff",
+   "fuente": "PRESUP_1 (CBPF) E1 USD 51,72 por fase de 3 días, prorrateado"
+  },
+  {
+   "id": "TTE-STAFF",
+   "concepto": "Transporte terrestre personal (aeropuerto + internos)",
+   "unidad": "persona-día",
+   "zona": "Bogotá",
+   "valor": 250000.0,
+   "bloque": "Transporte terrestre staff",
+   "fuente": "PRESUP_1 (CBPF) E19 USD 86,21/día"
+  },
+  {
+   "id": "TTE-STAFF",
+   "concepto": "Transporte terrestre personal (aeropuerto + internos)",
+   "unidad": "persona-día",
+   "zona": "Municipio",
+   "valor": 300000.0,
+   "bloque": "Transporte terrestre staff",
+   "fuente": "PRESUP_1 (CBPF) E2/E17/E20 USD 103,45/día"
+  },
+  {
+   "id": "TTE-STAFF",
+   "concepto": "Transporte terrestre personal (aeropuerto + internos)",
+   "unidad": "persona-día",
+   "zona": "Rural remoto",
+   "valor": 300000.0,
+   "bloque": "Transporte terrestre staff",
+   "fuente": "PRESUP_1 (CBPF) E2/E17/E20 USD 103,45/día"
+  },
+  {
+   "id": "TTE-PART-LOCAL",
+   "concepto": "Transporte participante zona rural → cabecera (ida y regreso)",
+   "unidad": "trayecto",
+   "valor": 59740.0,
+   "bloque": "Transporte participantes",
+   "fuente": "PRESUP_1 (CBPF) B18/E15 USD 20,60"
+  },
+  {
+   "id": "TTE-PART-MUNIC",
+   "concepto": "Transporte participante desde municipio de origen + internos",
+   "unidad": "trayecto",
+   "valor": 119770.0,
+   "bloque": "Transporte participantes",
+   "fuente": "PRESUP_1 (CBPF) B19 USD 41,30"
+  },
+  {
+   "id": "SALON",
+   "concepto": "Alquiler de salón",
+   "unidad": "día",
+   "valor": 650000.0,
+   "bloque": "Alquiler de salones",
+   "fuente": "PRESUP_1 (CBPF) B10 USD 224,14"
+  },
+  {
+   "id": "SALON",
+   "concepto": "Alquiler de salón",
+   "unidad": "día",
+   "zona": "Capital departamental",
+   "valor": 1300000.0,
+   "bloque": "Alquiler de salones",
+   "fuente": "PRESUP_1 (CBPF) B9 Popayán USD 448,28"
+  },
+  {
+   "id": "SALON",
+   "concepto": "Alquiler de salón",
+   "unidad": "día",
+   "zona": "Bogotá",
+   "valor": 850000.0,
+   "bloque": "Alquiler de salones",
+   "fuente": "PRESUP_1 (CBPF) B11 USD 293,10 (la narrativa decía 239,10)"
+  },
+  {
+   "id": "KIT-PED",
+   "concepto": "Kit pedagógico básico (agenda, lapiceros, papelería)",
+   "unidad": "kit",
+   "valor": 50000.0,
+   "bloque": "Materiales y kits",
+   "fuente": "PRESUP_1 (CBPF) B7/B15 USD 17,24"
+  },
+  {
+   "id": "KIT-ENT",
+   "concepto": "Kit ENTRÉNATE (morral, cartilla, material didáctico)",
+   "unidad": "kit",
+   "valor": 1699915.0,
+   "bloque": "Materiales y kits",
+   "fuente": "Planeación general › Kit ENTRÉNATE",
+   "notas": "17 componentes + IVA 19%. Antes 1.699.400 (PRESUP_1). Detalles usó 1.500.000: confirmar."
+  },
+  {
+   "id": "KIT-ERAE",
+   "concepto": "Maleta pedagógica ERAE",
+   "unidad": "kit",
+   "valor": 1300000.0,
+   "bloque": "Materiales y kits",
+   "fuente": "Planeación general › Kit ERAE",
+   "notas": "9 componentes + IVA. Antes 1.299.200 (PRESUP_1)."
+  },
+  {
+   "id": "MAT-DIF",
+   "concepto": "Material de difusión ERAE / MCMT (folletos, cuadernillos, manillas)",
+   "unidad": "unidad",
+   "valor": 8497.0,
+   "bloque": "Materiales y kits",
+   "fuente": "PRESUP_1 (CBPF) B3 USD 2,93"
+  },
+  {
+   "id": "KIT-SENAL",
+   "concepto": "Kit de señalización para marcación de escuelas",
+   "unidad": "kit",
+   "valor": 249980.0,
+   "bloque": "Materiales y kits",
+   "fuente": "PRESUP_1 (CBPF) B14 USD 86,20"
+  },
+  {
+   "id": "DOTAC",
+   "concepto": "Dotación personal de territorio (chaleco + gorra)",
+   "unidad": "persona",
+   "valor": 150000.0,
+   "bloque": "Materiales y kits",
+   "fuente": "PRESUP_1 (CBPF) B4 USD 51,72"
+  },
+  {
+   "id": "DISP-MOV",
+   "concepto": "Dispositivo de movilidad (costo promedio por beneficiario)",
+   "unidad": "beneficiario",
+   "valor": 13000000.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "PRESUP_1 (CBPF) B5/B6 USD 4.482,76"
+  },
+  {
+   "id": "CASH-EMERG",
+   "concepto": "Transferencia monetaria de emergencia",
+   "unidad": "transferencia",
+   "valor": 1500000.0,
+   "bloque": "Transferencias monetarias",
+   "fuente": "PRESUP_1 (CBPF) B8 USD 517,24"
+  },
+  {
+   "id": "SEG-VIDA",
+   "concepto": "Seguro de vida",
+   "unidad": "persona-año",
+   "valor": 104980.0,
+   "bloque": "Seguros",
+   "fuente": "PRESUP_1 (CBPF) USD 36,20"
+  },
+  {
+   "id": "CEL-MES",
+   "concepto": "Plan de telefonía celular",
+   "unidad": "línea-mes",
+   "valor": 60000.0,
+   "bloque": "Gastos operativos",
+   "fuente": "PRESUP_1 (CBPF) G USD 20,69"
+  },
+  {
+   "id": "LAPTOP",
+   "concepto": "Portátil Core i7, 16 GB RAM, SSD 512 GB",
+   "unidad": "unidad",
+   "valor": 2720229.0,
+   "bloque": "Equipos",
+   "fuente": "PRESUP_1 (CBPF) C1 USD 938,01"
+  },
+  {
+   "id": "ORT-01",
+   "concepto": "AFO rígido (termoformado, con toma de molde en yeso) - con o sin acolchonamiento",
+   "unidad": "Unidad",
+   "valor": 319200.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 6 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 175.553 · PVP31% 254.424 · ARN envió 485.000"
+  },
+  {
+   "id": "ORT-02",
+   "concepto": "AFO articulado - Tamarack (termoformado, con toma de molde en yeso) - con o sin acolchonamiento",
+   "unidad": "Unidad",
+   "valor": 666000.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 7 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 366.324 · PVP31% 530.904 · ARN envió 555.000"
+  },
+  {
+   "id": "ORT-03",
+   "concepto": "DAFO (termoformado, con toma de molde en yeso) - con o sin acolchonamiento",
+   "unidad": "Unidad",
+   "valor": 356900.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 8 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 196.271 · PVP31% 284.451 · ARN envió 445.000"
+  },
+  {
+   "id": "ORT-04",
+   "concepto": "KAFO articulado - rodilla (termoformado, con toma de molde en yeso) - con o sin acolchonamiento",
+   "unidad": "Unidad",
+   "valor": 3553900.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 9 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 1.954.651 · PVP31% 2.832.828 · ARN envió 990.000"
+  },
+  {
+   "id": "ORT-05",
+   "concepto": "KAFO articulado - rodilla & tobillo (termoformado, con toma de molde en yeso) - con o sin acolchonamiento",
+   "unidad": "Unidad",
+   "valor": 3827900.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 10 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 2.105.338 · PVP31% 3.051.214 · ARN envió 1.080.000"
+  },
+  {
+   "id": "ORT-06",
+   "concepto": "HKAFO articulado - rodilla (termoformado, con toma de molde en yeso) - con o sin acolchonamiento - bilateral, con cinturón metálico",
+   "unidad": "Unidad",
+   "valor": 7320200.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 11 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 4.026.112 · PVP31% 5.834.944"
+  },
+  {
+   "id": "ORT-07",
+   "concepto": "HKAFO articulado - rodilla (termoformado, con toma de molde yeso) - con o sin acolchonamiento - bilateral, con cinturón termoplástico",
+   "unidad": "Unidad",
+   "valor": 7864400.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 12 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 4.325.404 · PVP31% 6.268.702"
+  },
+  {
+   "id": "ORT-08",
+   "concepto": "HKAFO articulado - rodilla & tobillo (termoformado, con toma de molde yeso) - con o sin acolchonamiento - bilateral, con cinturón metálico",
+   "unidad": "Unidad",
+   "valor": 7320200.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 13 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 4.026.112 · PVP31% 5.834.944"
+  },
+  {
+   "id": "ORT-09",
+   "concepto": "HKAFO articulado - rodilla & tobillo (termoformado, con toma de molde yeso) - con o sin acolchonamiento - bilateral, con cinturón termoplástico",
+   "unidad": "Unidad",
+   "valor": 7864400.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 14 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 4.325.404 · PVP31% 6.268.702"
+  },
+  {
+   "id": "ORT-10",
+   "concepto": "ORT-10 (la lista de precios no trae descripción: verificar)",
+   "unidad": "Unidad",
+   "valor": 168100.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 15 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 92.461 · PVP31% 134.001 · ARN envió 400.000"
+  },
+  {
+   "id": "PRO-01",
+   "concepto": "Parcial de pie - tecnología polipropileno (termoformado, con toma de molde en yeso)",
+   "unidad": "Unidad",
+   "valor": 2151100.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 18 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 1.183.107 · PVP31% 1.714.648"
+  },
+  {
+   "id": "PRO-02",
+   "concepto": "Desarticulación de tobillo / Syme - PP+ Pie comercial (termoformado, con toma de molde en yeso)",
+   "unidad": "Unidad",
+   "valor": 6198600.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 19 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 3.409.231 · PVP31% 4.940.915"
+  },
+  {
+   "id": "PRO-03",
+   "concepto": "Transtibial - tecnología modular ST&G/ Pie Dinámico (termoformado, con toma de molde en yeso) *aplica nota #8",
+   "unidad": "Unidad",
+   "valor": 7775900.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 20 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 4.276.763 · PVP31% 6.198.207"
+  },
+  {
+   "id": "PRO-04",
+   "concepto": "Transtibial con corselete de muslo - tecnología modular ST&G/ Pie Dinámico (termoformado, con toma de molde en yeso)",
+   "unidad": "Unidad",
+   "valor": 7775900.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 21 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 4.276.763 · PVP31% 6.198.207"
+  },
+  {
+   "id": "PRO-05",
+   "concepto": "Desarticulación de rodilla -tecnología modular ST&G/ Rodilla Policéntrica Mecánica/ Pie Dinámico (termoformado, con toma de molde en yeso)",
+   "unidad": "Unidad",
+   "valor": 14639300.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 22 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 8.051.607 · PVP31% 11.668.995"
+  },
+  {
+   "id": "PRO-06",
+   "concepto": "Transfemoral - tecnología modular ST&G/ Rodilla Policéntrica Mecánica/ Pie Dinámico (termoformado, con toma de molde en yeso)",
+   "unidad": "Unidad",
+   "valor": 14463100.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 23 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 7.954.726 · PVP31% 11.528.588"
+  },
+  {
+   "id": "PRO-07",
+   "concepto": "Transfemoral ICS - tecnología modular ST&G/ Rodilla Policéntrica Mecánica- Pie Dinámico (termoformado, con toma de molde en yeso)",
+   "unidad": "Unidad",
+   "valor": 14463100.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 24 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 7.954.726 · PVP31% 11.528.588"
+  },
+  {
+   "id": "PRO-08",
+   "concepto": "Desarticulación de cadera o hemipelvectomia - tecnología \"intermedio/modular\" ST&G/ Rodilla Policéntrica Mecánica- Pie Dinámico (termoformado, con toma de molde en yeso)",
+   "unidad": "Unidad",
+   "valor": 18399700.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 25 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 10.119.808 · PVP31% 14.666.389"
+  },
+  {
+   "id": "PRO-09",
+   "concepto": "Ortho-Prótesis por debajo de la rodilla (sin corselete de muslo) - tecnología modular ST&G/ Pie Dinámico (termoformado, con toma de molde en yeso)",
+   "unidad": "Unidad",
+   "valor": 7775900.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 26 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 4.276.763 · PVP31% 6.198.207"
+  },
+  {
+   "id": "PRO-10",
+   "concepto": "Ortho-Prótesis por arriba de la rodilla (con corselete de muslo) - tecnología modular ST&G/ Pie Dinámico (termoformado, con toma de molde en yeso)",
+   "unidad": "Unidad",
+   "valor": 14639300.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 27 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 8.051.607 · PVP31% 11.668.995"
+  },
+  {
+   "id": "PRO-11",
+   "concepto": "Transradial activa (con gancho y mano pasiva intercambiable) - tecnología \"intermedio/modular\" (termoformado, con toma de molde en yeso)",
+   "unidad": "Unidad",
+   "valor": 14468600.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 28 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 7.957.736 · PVP31% 11.532.951"
+  },
+  {
+   "id": "PRO-12",
+   "concepto": "Transhumeral activa (con gancho y mano pasiva intercambiable) - tecnología \"intermedio/modular\" (termoformado, con toma de molde en yeso)",
+   "unidad": "Unidad",
+   "valor": 18940400.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 29 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 10.417.224 · PVP31% 15.097.426"
+  },
+  {
+   "id": "REP-PRO-02",
+   "concepto": "Reparación y/o mantenimiento menor - cambio de pie protésico *aplica nota #1",
+   "unidad": "Unidad",
+   "valor": 1494500.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 34 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 822.000 · PVP31% 1.191.304 · ARN envió 60.000"
+  },
+  {
+   "id": "REP-PRO-04",
+   "concepto": "Reparación mayor - TT - cambio de socket - tecnología modular ST&G/ Pie Dinámico (termoformado, con toma de molde en yeso) *aplica nota #4",
+   "unidad": "Unidad",
+   "valor": 6276500.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 35 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 3.452.063 · PVP31% 5.002.990 · ARN envió 1.000.000"
+  },
+  {
+   "id": "REP-PRO-06",
+   "concepto": "Reparación mayor - DR - cambio de socket - tecnología \"intermedio/modular\" (termoformado, con toma de molde en yeso) *aplica nota #7",
+   "unidad": "Unidad",
+   "valor": 5855500.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 36 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 3.220.507 · PVP31% 4.667.401 · ARN envió 1.200.000"
+  },
+  {
+   "id": "REP-PRO-08",
+   "concepto": "Reparación mayor - TF - cambio de socket - tecnología tecnología modular ST&G/ Pie Dinámico (termoformado, con toma de molde en yeso) *aplica nota #5",
+   "unidad": "Unidad",
+   "valor": 7078000.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 37 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 3.892.926 · PVP31% 5.641.922 · ARN envió 1.400.000"
+  },
+  {
+   "id": "REP-PRO-10",
+   "concepto": "Reparación mayor - TF ICS - tecnología tecnología modular ST&G/ Pie Dinámico (termoformado, con toma de molde en yeso) *aplica nota #5",
+   "unidad": "Unidad",
+   "valor": 7078000.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 38 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 3.892.926 · PVP31% 5.641.922 · ARN envió 1.525.000"
+  },
+  {
+   "id": "VAR-01",
+   "concepto": "Plantillas convencionales (con toma de medidas) *aplica nota #1",
+   "unidad": "Par",
+   "valor": 108500.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 42 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 59.651 · PVP31% 86.451 · ARN envió 90.000"
+  },
+  {
+   "id": "VAR-02",
+   "concepto": "Plantilla (termoformado, con toma de molde en yeso)",
+   "unidad": "Unidad",
+   "valor": 232400.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 43 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 127.800 · PVP31% 185.218 · ARN envió 205.000"
+  },
+  {
+   "id": "VAR-03",
+   "concepto": "Plantillas (termoformado, con toma de molde en yeso)",
+   "unidad": "Par",
+   "valor": 464700.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 44 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 255.600 · PVP31% 370.435 · ARN envió 295.000"
+  },
+  {
+   "id": "VAR-04",
+   "concepto": "Funda de neoprene para protesis transtibial (rodillera- suspensión mixta)",
+   "unidad": "Unidad",
+   "valor": 147300.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 45 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 81.000 · PVP31% 117.391"
+  },
+  {
+   "id": "VAR-05",
+   "concepto": "Funda de neoprene para protesis transfemoral (cinturon- suspensión mixta)",
+   "unidad": "Unidad",
+   "valor": 147300.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 46 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 81.000 · PVP31% 117.391"
+  },
+  {
+   "id": "VAR-06",
+   "concepto": "Kit de conexión modular para transfemoral corto (Adaptador piramidal/ tubo corto/ adaptador de tubo/ adaptador doble, entre otros) *aplica nota #9",
+   "unidad": "Unidad",
+   "valor": 463800.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 47 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 255.070 · PVP31% 369.667"
+  },
+  {
+   "id": "VAR-07",
+   "concepto": "Caminador sencillo plegable en aluminio y graduable en altura (anterior o posterior)",
+   "unidad": "Unidad",
+   "valor": 200500.0,
+   "bloque": "Dispositivos de movilidad",
+   "fuente": "Lista P&O 2025 · fila 48 · PVP 45%",
+   "fecha": "2025-01-01",
+   "notas": "Costo 110.300 · PVP31% 159.855"
+  },
+  {
+   "id": "ARL",
+   "concepto": "ARL personal no vinculado por nómina (comparecientes, voluntarios)",
+   "unidad": "persona-año",
+   "valor": 120000.0,
+   "bloque": "Seguros",
+   "fuente": "Presupuesto FMD CIREC (ARL comparecientes)"
+  },
+  {
+   "id": "EXAM-MED",
+   "concepto": "Exámenes médicos de ingreso y egreso",
+   "unidad": "examen",
+   "valor": 55000.0,
+   "bloque": "Seguros",
+   "fuente": "Presupuesto FMD CIREC"
+  },
+  {
+   "id": "AUDIT",
+   "concepto": "Auditoría externa del proyecto",
+   "unidad": "auditoría",
+   "valor": 7500000.0,
+   "bloque": "Auditoría",
+   "fuente": "Presupuesto AECID Humanicemos (A.3.3.1)"
+  },
+  {
+   "id": "GASTOS-FIN",
+   "concepto": "Gastos financieros y bancarios",
+   "unidad": "mes",
+   "valor": 438000.0,
+   "bloque": "Gastos financieros",
+   "fuente": "Presupuesto AECID Humanicemos (A.3.5.1)"
+  },
+  {
+   "id": "PAPELERIA",
+   "concepto": "Papelería, impresión y comunicaciones",
+   "unidad": "mes",
+   "valor": 700000.0,
+   "bloque": "Gastos operativos",
+   "fuente": "Presupuesto AECID Humanicemos (A.3.2.16)"
+  },
+  {
+   "id": "EVENTO-CIERRE",
+   "concepto": "Evento de cierre y socialización de resultados",
+   "unidad": "evento",
+   "valor": 10000000.0,
+   "bloque": "Servicios profesionales",
+   "fuente": "Presupuesto AECID Humanicemos (A.3.2.7)"
+  },
+  {
+   "id": "CUNA-RADIAL",
+   "concepto": "Cuñas radiales",
+   "unidad": "mes",
+   "valor": 1000000.0,
+   "bloque": "Comunicación y visibilidad",
+   "fuente": "Presupuesto AECID Humanicemos (A.3.4.5)"
+  },
+  {
+   "id": "PIEZAS-VISIB",
+   "concepto": "Piezas de visibilidad (brochures, agendas, rotafolios, pendones)",
+   "unidad": "global",
+   "valor": 15000000.0,
+   "bloque": "Comunicación y visibilidad",
+   "fuente": "Presupuesto AECID Humanicemos (A.3.4.4)"
+  },
+  {
+   "id": "LINEA-BASE",
+   "concepto": "Materiales para línea de base / evaluación final",
+   "unidad": "global",
+   "valor": 200000.0,
+   "bloque": "Materiales y kits",
+   "fuente": "Presupuesto FMD CIREC (ACT 4.1)"
+  },
+  {
+   "id": "TALLER-ERAE",
+   "concepto": "Taller comunitario ERAE / MCMT (metodología CIREC, todo incluido)",
+   "unidad": "taller",
+   "valor": 500000.0,
+   "bloque": "Paquetes por evento",
+   "fuente": "Presupuesto FMD CIREC (ACT 1.3)"
+  }
+ ],
+ "lugares": [
+  {
+   "nombre": "Bogotá",
+   "departamento": "Bogotá D.C.",
+   "zona": "Bogotá",
+   "notas": "Sede CIREC"
+  },
+  {
+   "nombre": "Leticia",
+   "departamento": "Amazonas",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Medellín",
+   "departamento": "Antioquia",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Arauca",
+   "departamento": "Arauca",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Barranquilla",
+   "departamento": "Atlántico",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Cartagena",
+   "departamento": "Bolívar",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Tunja",
+   "departamento": "Boyacá",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Manizales",
+   "departamento": "Caldas",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Florencia",
+   "departamento": "Caquetá",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Yopal",
+   "departamento": "Casanare",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Popayán",
+   "departamento": "Cauca",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Valledupar",
+   "departamento": "Cesar",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Quibdó",
+   "departamento": "Chocó",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Montería",
+   "departamento": "Córdoba",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Inírida",
+   "departamento": "Guainía",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "San José del Guaviare",
+   "departamento": "Guaviare",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Neiva",
+   "departamento": "Huila",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Riohacha",
+   "departamento": "La Guajira",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Santa Marta",
+   "departamento": "Magdalena",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Villavicencio",
+   "departamento": "Meta",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Pasto",
+   "departamento": "Nariño",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Cúcuta",
+   "departamento": "Norte de Santander",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Mocoa",
+   "departamento": "Putumayo",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Armenia",
+   "departamento": "Quindío",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Pereira",
+   "departamento": "Risaralda",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "San Andrés",
+   "departamento": "San Andrés",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Bucaramanga",
+   "departamento": "Santander",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Sincelejo",
+   "departamento": "Sucre",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Ibagué",
+   "departamento": "Tolima",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Cali",
+   "departamento": "Valle del Cauca",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Mitú",
+   "departamento": "Vaupés",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "Puerto Carreño",
+   "departamento": "Vichada",
+   "zona": "Capital departamental"
+  },
+  {
+   "nombre": "San Vicente del Caguán",
+   "departamento": "Caquetá",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "La Montañita",
+   "departamento": "Caquetá",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "Cáceres",
+   "departamento": "Antioquia",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "Tarazá",
+   "departamento": "Antioquia",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "Segovia",
+   "departamento": "Antioquia",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "Remedios",
+   "departamento": "Antioquia",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "Anorí",
+   "departamento": "Antioquia",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "Valdivia",
+   "departamento": "Antioquia",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "Sucre (Cauca)",
+   "departamento": "Cauca",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "La Vega",
+   "departamento": "Cauca",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "Inzá",
+   "departamento": "Cauca",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "Morales",
+   "departamento": "Cauca",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "El Tambo",
+   "departamento": "Cauca",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "Guapi",
+   "departamento": "Cauca",
+   "zona": "Municipio"
+  },
+  {
+   "nombre": "Miraflores (Guaviare)",
+   "departamento": "Guaviare",
+   "zona": "Rural remoto",
+   "notas": "Acceso aéreo desde San José del Guaviare"
+  },
+  {
+   "nombre": "Por definir (Antioquia)",
+   "departamento": "Antioquia",
+   "zona": "Municipio",
+   "notas": "Comodín mientras se define el municipio"
+  },
+  {
+   "nombre": "Por definir (Arauca)",
+   "departamento": "Arauca",
+   "zona": "Municipio",
+   "notas": "Comodín mientras se define el municipio"
+  },
+  {
+   "nombre": "Por definir (Caquetá)",
+   "departamento": "Caquetá",
+   "zona": "Municipio",
+   "notas": "Comodín mientras se define el municipio"
+  },
+  {
+   "nombre": "Por definir (Cauca)",
+   "departamento": "Cauca",
+   "zona": "Municipio",
+   "notas": "Comodín mientras se define el municipio"
+  },
+  {
+   "nombre": "Por definir (Chocó)",
+   "departamento": "Chocó",
+   "zona": "Municipio",
+   "notas": "Comodín mientras se define el municipio"
+  },
+  {
+   "nombre": "Por definir (Guaviare)",
+   "departamento": "Guaviare",
+   "zona": "Municipio",
+   "notas": "Comodín mientras se define el municipio"
+  },
+  {
+   "nombre": "Por definir (Meta)",
+   "departamento": "Meta",
+   "zona": "Municipio",
+   "notas": "Comodín mientras se define el municipio"
+  },
+  {
+   "nombre": "Por definir (Nariño)",
+   "departamento": "Nariño",
+   "zona": "Municipio",
+   "notas": "Comodín mientras se define el municipio"
+  },
+  {
+   "nombre": "Por definir (Norte de Santander)",
+   "departamento": "Norte de Santander",
+   "zona": "Municipio",
+   "notas": "Comodín mientras se define el municipio"
+  },
+  {
+   "nombre": "Por definir (Putumayo)",
+   "departamento": "Putumayo",
+   "zona": "Municipio",
+   "notas": "Comodín mientras se define el municipio"
+  }
+ ],
+ "cargos": [
+  {
+   "cargo": "Médico fisiatra",
+   "costo_mensual_cop": 18174876.0,
+   "fuente": "Salarios (1).xlsx – Salario 2026",
+   "estado": "Confirmado",
+   "notas": "Otro archivo: 15.759.000; CBPF: 18.359.987"
+  },
+  {
+   "cargo": "Fisioterapeuta",
+   "costo_mensual_cop": 5571357.0,
+   "fuente": "Salarios (1).xlsx – Salario 2026",
+   "estado": "Confirmado",
+   "notas": "CBPF usó 5.787.994"
+  },
+  {
+   "cargo": "Técnico ortoprotesista",
+   "costo_mensual_cop": 5820452.0,
+   "fuente": "Salarios (1).xlsx – Salario 2026",
+   "estado": "Confirmado",
+   "notas": "Incluye aux. transporte 249.095; otro archivo 5.628.105"
+  },
+  {
+   "cargo": "Trabajador(a) social",
+   "costo_mensual_cop": 3909818.0,
+   "fuente": "Salarios (1).xlsx – Salario 2026",
+   "estado": "Confirmado",
+   "notas": "CBPF usó 3.964.503"
+  },
+  {
+   "cargo": "Coordinador(a) de comunicaciones",
+   "costo_mensual_cop": 7269950.0,
+   "fuente": "Salarios (1).xlsx – Salario 2026",
+   "estado": "Confirmado",
+   "notas": "CBPF usó 7.343.989"
+  },
+  {
+   "cargo": "Profesional III audiovisual",
+   "costo_mensual_cop": 4543719.0,
+   "fuente": "Salarios (1).xlsx – Salario 2026",
+   "estado": "Confirmado"
+  },
+  {
+   "cargo": "Profesional II audiovisual y multimedia",
+   "costo_mensual_cop": 7344000.0,
+   "fuente": "Salarios para actualización.xlsx",
+   "notas": "Usado en CBPF como 'profesional audiovisual'"
+  },
+  {
+   "cargo": "Terapeuta ocupacional",
+   "costo_mensual_cop": 5787990.0,
+   "fuente": "Salarios para actualización.xlsx",
+   "notas": "CBPF usó 5.507.970"
+  },
+  {
+   "cargo": "Líder de brigada",
+   "costo_mensual_cop": 4589705.0,
+   "fuente": "Salarios para actualización.xlsx",
+   "notas": "CBPF usó 4.589.714"
+  },
+  {
+   "cargo": "Gerente de cooperación e impacto social",
+   "costo_mensual_cop": 14473800.0,
+   "fuente": "Salarios para actualización.xlsx"
+  },
+  {
+   "cargo": "Jefe de cooperación internacional",
+   "costo_mensual_cop": 9945000.0,
+   "fuente": "Salarios para actualización.xlsx"
+  },
+  {
+   "cargo": "Jefe ERAE y AIV",
+   "costo_mensual_cop": 10449900.0,
+   "fuente": "Salarios para actualización.xlsx",
+   "notas": "CBPF usó 10.404.011"
+  },
+  {
+   "cargo": "Jefe inclusión social (ENTRÉNATE)",
+   "costo_mensual_cop": 10449900.0,
+   "fuente": "Salarios para actualización.xlsx"
+  },
+  {
+   "cargo": "Médico ortopedista",
+   "costo_mensual_cop": 2773595.0,
+   "fuente": "Salarios para actualización.xlsx",
+   "notas": "Salario base parece de medio tiempo: verificar"
+  },
+  {
+   "cargo": "Fonoaudiólogo(a)",
+   "costo_mensual_cop": 5555594.0,
+   "fuente": "Salarios para actualización.xlsx"
+  },
+  {
+   "cargo": "Psicólogo(a)",
+   "costo_mensual_cop": 5306499.0,
+   "fuente": "Salarios para actualización.xlsx"
+  },
+  {
+   "cargo": "Técnico de metalmecánica",
+   "costo_mensual_cop": 5949711.0,
+   "fuente": "Salarios para actualización.xlsx"
+  },
+  {
+   "cargo": "Jefe de género y políticas públicas",
+   "costo_mensual_cop": 6500000.0,
+   "fuente": "PRESUP_1 (CBPF), USD × 2.900",
+   "notas": "Cargo nuevo – solo existe en CBPF"
+  },
+  {
+   "cargo": "Profesional de monitoreo y seguimiento",
+   "costo_mensual_cop": 6500000.0,
+   "fuente": "PRESUP_1 (CBPF), USD × 2.900",
+   "notas": "Cargo nuevo – solo existe en CBPF"
+  },
+  {
+   "cargo": "Oficial de cumplimiento",
+   "costo_mensual_cop": 14473800.0,
+   "fuente": "PRESUP_1 (CBPF), USD × 2.900"
+  },
+  {
+   "cargo": "Coordinador(a) departamental",
+   "costo_mensual_cop": 6052213.0,
+   "fuente": "PRESUP_1 (CBPF), USD × 2.900"
+  },
+  {
+   "cargo": "Facilitador(a) AICMA",
+   "costo_mensual_cop": 3600000.0,
+   "fuente": "PRESUP_1 (CBPF), USD × 2.900"
+  },
+  {
+   "cargo": "Analista financiero",
+   "costo_mensual_cop": 3000000.0,
+   "fuente": "PRESUP_1 (CBPF), USD × 2.900"
+  },
+  {
+   "cargo": "Auxiliar administrativo",
+   "costo_mensual_cop": 2200000.0,
+   "fuente": "PRESUP_1 (CBPF), USD × 2.900"
+  }
+ ],
+ "tipos": [
+  {
+   "nombre": "Brigada de rehabilitación (fase)",
+   "descripcion": "Una fase de brigada en un lugar. Repeticiones = número de fases (normalmente 3).",
+   "grupos": [
+    {
+     "nombre": "Equipo de brigada",
+     "rol": "equipo",
+     "personas": 7.0,
+     "llegada": "aereo",
+     "dias": 4.0,
+     "noches": 3.0,
+     "dias_transporte": 3.0
+    },
+    {
+     "nombre": "Beneficiarios",
+     "personas": 12.0,
+     "llegada": "terrestre",
+     "dias": 2.0,
+     "noches": 1.0,
+     "por_habitacion": 2,
+     "tarifa_transporte": "TTE-PART-LOCAL",
+     "notas": "Vienen de zona rural del municipio"
+    },
+    {
+     "nombre": "Acompañantes",
+     "personas": 12.0,
+     "llegada": "terrestre",
+     "dias": 2.0,
+     "noches": 1.0,
+     "por_habitacion": 2,
+     "tarifa_transporte": "TTE-PART-LOCAL",
+     "beneficiarios": false
+    }
+   ],
+   "notas": "Equipo: fisiatra, líder de brigada, ortoprotesista, trabajador social, fisioterapeuta, TO, audiovisual. Dispositivos de movilidad van en Otros costos."
+  },
+  {
+   "nombre": "Taller ENTRÉNATE",
+   "descripcion": "Taller de 3 días con cuidadores y líderes en cabecera municipal.",
+   "grupos": [
+    {
+     "nombre": "Facilitadores",
+     "rol": "equipo",
+     "personas": 2.0,
+     "llegada": "aereo",
+     "dias": 4.0,
+     "noches": 3.0
+    },
+    {
+     "nombre": "Asistentes",
+     "personas": 18.0,
+     "llegada": "terrestre",
+     "dias": 3.0,
+     "noches": 2.0,
+     "tarifa_transporte": "TTE-PART-LOCAL"
+    }
+   ],
+   "dias_salon": 2.0,
+   "kits": [
+    {
+     "tarifa": "KIT-ENT"
+    }
+   ]
+  },
+  {
+   "nombre": "Taller de arranque (equipo)",
+   "descripcion": "Inducción del equipo implementador en Bogotá.",
+   "grupos": [
+    {
+     "nombre": "Equipo que viaja",
+     "rol": "equipo",
+     "personas": 12.0,
+     "llegada": "aereo",
+     "dias": 5.0,
+     "noches": 4.0,
+     "dias_transporte": 4.0
+    }
+   ],
+   "dias_salon": 4.0
+  },
+  {
+   "nombre": "Curso ERAE Básico",
+   "descripcion": "Curso de 4 días para líderes comunitarios.",
+   "grupos": [
+    {
+     "nombre": "Facilitadores locales",
+     "rol": "equipo",
+     "personas": 2.0,
+     "llegada": "sede",
+     "dias": 4.0
+    },
+    {
+     "nombre": "Participantes",
+     "personas": 10.0,
+     "llegada": "terrestre",
+     "dias": 4.0,
+     "noches": 3.0
+    }
+   ],
+   "dias_salon": 4.0,
+   "kits": [
+    {
+     "tarifa": "KIT-PED"
+    }
+   ]
+  },
+  {
+   "nombre": "Visita de seguimiento",
+   "descripcion": "1 profesional viaja a territorio (coordinación, monitoreo, género).",
+   "grupos": [
+    {
+     "nombre": "Profesional",
+     "rol": "equipo",
+     "personas": 1.0,
+     "llegada": "aereo",
+     "dias": 3.0,
+     "noches": 2.0
+    }
+   ]
+  },
+  {
+   "nombre": "Taller comunitario ERAE / MCMT",
+   "descripcion": "Taller de 1 día en la comunidad. Facilitadora pagada en Personal. Repeticiones = número de talleres.",
+   "grupos": [
+    {
+     "nombre": "Facilitadora",
+     "rol": "equipo",
+     "personas": 1.0,
+     "dias": 1.0,
+     "comidas": "refrigerio",
+     "unidad_transporte": "trayecto",
+     "tarifa_transporte": "TTE-PART-LOCAL"
+    },
+    {
+     "nombre": "Asistentes",
+     "personas": 10.0,
+     "dias": 1.0,
+     "comidas": "refrigerio"
+    }
+   ],
+   "mismos_participantes": false,
+   "no_necesario": {
+    "salon": "Espacio comunitario sin costo (escuela, salón comunal) – confirmar",
+    "Asistentes:transporte": "Asistentes de la misma vereda o barrio – confirmar"
+   }
+  },
+  {
+   "nombre": "Atención en sede Bogotá (fondo agotable)",
+   "descripcion": "Beneficiarios que viajan a la sede CIREC en Bogotá. Repeticiones = fases.",
+   "grupos": [
+    {
+     "nombre": "Beneficiarios",
+     "personas": 15.0,
+     "llegada": "aereo",
+     "dias": 3.0,
+     "noches": 3.0
+    }
+   ],
+   "no_necesario": {
+    "salon": "Se atiende en la sede CIREC",
+    "facilitacion": "Personal de la sede CIREC, pagado en Personal"
+   }
+  },
+  {
+   "nombre": "Marcación de escuelas",
+   "descripcion": "Señalización preventiva de una escuela. Repeticiones = número de escuelas.",
+   "grupos": [
+    {
+     "nombre": "Equipo de marcación",
+     "rol": "equipo",
+     "personas": 2.0,
+     "llegada": "terrestre",
+     "dias": 1.0,
+     "unidad_transporte": "trayecto"
+    }
+   ],
+   "kits": [
+    {
+     "tarifa": "KIT-SENAL",
+     "por": "evento"
+    }
+   ],
+   "mismos_participantes": false
+  }
+ ],
+ "mapeo": {
+  "Personal": {
+   "CBPF": "A. Staff and Other Personnel Costs",
+   "AECID": "A.1 Personal operativo",
+   "Fondo Multidonante": "1. Costos de personal"
+  },
+  "Personal administrativo": {
+   "CBPF": "A. Staff and Other Personnel Costs",
+   "AECID": "A.2 Personal administrativo",
+   "Fondo Multidonante": "1. Costos de personal"
+  },
+  "Tiquetes aéreos staff": {
+   "CBPF": "E. Travel",
+   "AECID": "A.3.1 Viajes, alojamientos y dietas",
+   "Fondo Multidonante": "5. Viajes"
+  },
+  "Transporte terrestre staff": {
+   "CBPF": "E. Travel",
+   "AECID": "A.3.1 Viajes, alojamientos y dietas",
+   "Fondo Multidonante": "5. Viajes"
+  },
+  "Hospedaje staff": {
+   "CBPF": "E. Travel",
+   "AECID": "A.3.1 Viajes, alojamientos y dietas",
+   "Fondo Multidonante": "5. Viajes"
+  },
+  "Alimentación staff": {
+   "CBPF": "E. Travel",
+   "AECID": "A.3.1 Viajes, alojamientos y dietas",
+   "Fondo Multidonante": "5. Viajes"
+  },
+  "Tiquetes aéreos participantes": {
+   "CBPF": "B. Supplies, Commodities, Materials",
+   "AECID": "A.3.1 Viajes, alojamientos y dietas",
+   "Fondo Multidonante": "5. Viajes"
+  },
+  "Transporte participantes": {
+   "CBPF": "B. Supplies, Commodities, Materials",
+   "AECID": "A.3.1 Viajes, alojamientos y dietas",
+   "Fondo Multidonante": "5. Viajes"
+  },
+  "Hospedaje participantes": {
+   "CBPF": "B. Supplies, Commodities, Materials",
+   "AECID": "A.3.1 Viajes, alojamientos y dietas",
+   "Fondo Multidonante": "5. Viajes"
+  },
+  "Alimentación participantes": {
+   "CBPF": "B. Supplies, Commodities, Materials",
+   "AECID": "A.3.1 Viajes, alojamientos y dietas",
+   "Fondo Multidonante": "5. Viajes"
+  },
+  "Alquiler de salones": {
+   "CBPF": "B. Supplies, Commodities, Materials",
+   "AECID": "A.3.6 Alquiler de terrenos e inmuebles",
+   "Fondo Multidonante": "4. Servicios contractuales"
+  },
+  "Materiales y kits": {
+   "CBPF": "B. Supplies, Commodities, Materials",
+   "AECID": "A.3.2 Equipos, materiales y suministros",
+   "Fondo Multidonante": "2. Suministros, comodidades, materiales"
+  },
+  "Paquetes por evento": {
+   "CBPF": "D. Contractual Services",
+   "AECID": "A.3.4 Servicios técnicos y profesionales",
+   "Fondo Multidonante": "2. Suministros, comodidades, materiales"
+  },
+  "Dispositivos de movilidad": {
+   "CBPF": "B. Supplies, Commodities, Materials",
+   "AECID": "A.3.2 Equipos, materiales y suministros",
+   "Fondo Multidonante": "2. Suministros, comodidades, materiales"
+  },
+  "Transferencias monetarias": {
+   "CBPF": "B. Supplies, Commodities, Materials",
+   "AECID": "A.3.2 Equipos, materiales y suministros",
+   "Fondo Multidonante": "6. Transferencias y grants a contrapartes"
+  },
+  "Seguros": {
+   "CBPF": "B. Supplies, Commodities, Materials",
+   "AECID": "A.3.2 Equipos, materiales y suministros",
+   "Fondo Multidonante": "4. Servicios contractuales"
+  },
+  "Equipos": {
+   "CBPF": "C. Equipment",
+   "AECID": "A.3.2 Equipos, materiales y suministros",
+   "Fondo Multidonante": "3. Equipo, vehículo y muebles"
+  },
+  "Gastos operativos": {
+   "CBPF": "G. General Operating and Other Direct Costs",
+   "AECID": "A.3.2 Equipos, materiales y suministros",
+   "Fondo Multidonante": "7. Costos generales de operación y otros costos directos"
+  },
+  "Comunicación y visibilidad": {
+   "CBPF": "B. Supplies, Commodities, Materials",
+   "AECID": "A.3.4 Servicios técnicos y profesionales",
+   "Fondo Multidonante": "2. Suministros, comodidades, materiales"
+  },
+  "Servicios profesionales": {
+   "CBPF": "D. Contractual Services",
+   "AECID": "A.3.4 Servicios técnicos y profesionales",
+   "Fondo Multidonante": "4. Servicios contractuales"
+  },
+  "Auditoría": {
+   "CBPF": "G. General Operating and Other Direct Costs",
+   "AECID": "A.3.3 Auditoría",
+   "Fondo Multidonante": "7. Costos generales de operación y otros costos directos"
+  },
+  "Gastos financieros": {
+   "CBPF": "G. General Operating and Other Direct Costs",
+   "AECID": "A.3.5 Gastos financieros",
+   "Fondo Multidonante": "7. Costos generales de operación y otros costos directos"
+  }
+ },
+ "categorias": {
+  "CBPF": [
+   "A. Staff and Other Personnel Costs",
+   "B. Supplies, Commodities, Materials",
+   "C. Equipment",
+   "D. Contractual Services",
+   "E. Travel",
+   "F. Transfers and Grants to Counterparts",
+   "G. General Operating and Other Direct Costs"
+  ],
+  "AECID": [
+   "A.1 Personal operativo",
+   "A.2 Personal administrativo",
+   "A.3.1 Viajes, alojamientos y dietas",
+   "A.3.2 Equipos, materiales y suministros",
+   "A.3.3 Auditoría",
+   "A.3.4 Servicios técnicos y profesionales",
+   "A.3.5 Gastos financieros",
+   "A.3.6 Alquiler de terrenos e inmuebles"
+  ],
+  "Fondo Multidonante": [
+   "1. Costos de personal",
+   "2. Suministros, comodidades, materiales",
+   "3. Equipo, vehículo y muebles",
+   "4. Servicios contractuales",
+   "5. Viajes",
+   "6. Transferencias y grants a contrapartes",
+   "7. Costos generales de operación y otros costos directos"
+  ]
+ },
+ "chequeo": [
+  {
+   "id": "seguros",
+   "nombre": "Seguros de vida del personal de campo",
+   "pista": "Todo el que va a terreno necesita póliza.",
+   "tarifas": [
+    "SEG-VIDA"
+   ]
+  },
+  {
+   "id": "arl",
+   "nombre": "ARL y exámenes médicos (personal no vinculado por nómina)",
+   "pista": "Comparecientes, voluntarios o contratistas que participan en terreno.",
+   "tarifas": [
+    "ARL",
+    "EXAM-MED"
+   ]
+  },
+  {
+   "id": "dotacion",
+   "nombre": "Dotación del equipo de terreno (chaleco, gorra, carné)",
+   "tarifas": [
+    "DOTAC"
+   ]
+  },
+  {
+   "id": "celulares",
+   "nombre": "Telefonía celular del equipo de terreno",
+   "tarifas": [
+    "CEL-MES"
+   ]
+  },
+  {
+   "id": "equipos",
+   "nombre": "Equipos (computadores, cámaras)",
+   "tarifas": [
+    "LAPTOP"
+   ]
+  },
+  {
+   "id": "coordinacion",
+   "nombre": "Dirección y coordinación (gerencia, jefaturas, % de tiempo)",
+   "cargos": [
+    "Gerente de cooperación e impacto social",
+    "Jefe de cooperación internacional",
+    "Jefe ERAE y AIV",
+    "Coordinador(a) departamental"
+   ]
+  },
+  {
+   "id": "administrativo",
+   "nombre": "Personal administrativo y financiero",
+   "cargos": [
+    "Analista financiero",
+    "Auxiliar administrativo"
+   ]
+  },
+  {
+   "id": "monitoreo",
+   "nombre": "Monitoreo y seguimiento (profesional y visitas a terreno)",
+   "cargos": [
+    "Profesional de monitoreo y seguimiento"
+   ],
+   "tipos_actividad": [
+    "Visita de seguimiento"
+   ]
+  },
+  {
+   "id": "genero",
+   "nombre": "Enfoque de género (profesional o consultora)",
+   "cargos": [
+    "Jefe de género y políticas públicas"
+   ]
+  },
+  {
+   "id": "visibilidad",
+   "nombre": "Visibilidad y comunicaciones",
+   "tarifas": [
+    "CUNA-RADIAL",
+    "PIEZAS-VISIB",
+    "MAT-DIF"
+   ],
+   "cargos": [
+    "Coordinador(a) de comunicaciones",
+    "Profesional II audiovisual y multimedia",
+    "Profesional III audiovisual"
+   ]
+  },
+  {
+   "id": "linea_base",
+   "nombre": "Línea de base y evaluación final",
+   "tarifas": [
+    "LINEA-BASE"
+   ]
+  },
+  {
+   "id": "cierre",
+   "nombre": "Evento de cierre y socialización",
+   "tarifas": [
+    "EVENTO-CIERRE"
+   ]
+  },
+  {
+   "id": "auditoria",
+   "nombre": "Auditoría externa",
+   "pista": "Muchos donantes la exigen.",
+   "tarifas": [
+    "AUDIT"
+   ]
+  },
+  {
+   "id": "financieros",
+   "nombre": "Gastos financieros y bancarios",
+   "tarifas": [
+    "GASTOS-FIN"
+   ]
+  },
+  {
+   "id": "papeleria",
+   "nombre": "Papelería e impresión",
+   "tarifas": [
+    "PAPELERIA"
+   ]
+  }
+ ]
+}

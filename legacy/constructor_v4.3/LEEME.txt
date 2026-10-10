@@ -1,0 +1,9 @@
+Scripts que generan el Constructor de Presupuestos CIREC (v4.3).
+
+  python3 build_v43.py v3data.json Constructor_v4.3.xlsx                      -> plantilla con datos de ejemplo
+  python3 build_v43.py v3data.json PRESUP1.xlsx proj_PRESUP1.json             -> presupuesto CBPF aprobado reconstruido
+  python3 p1_project.py PRESUP1.XLS proj_PRESUP1.json                         -> regenera el JSON del proyecto desde el .xls aprobado
+
+Requiere: Python 3, openpyxl, pandas (+ xlrd para leer .xls).
+Las fórmulas se calculan al abrir el archivo en Excel (para probar se usó LibreOffice).
+v3data.json = banco de tarifas, cargos, WBS de ejemplo y mapeo de donante tomados de la versión v3 editada por Juan.
