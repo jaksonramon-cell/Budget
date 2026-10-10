@@ -60,3 +60,15 @@ def test_fmd_brechas_detectadas(banco):
     ]
     # 1.6 (marcación de escuelas, viaje de un día) está completa.
     assert not [a for a in r.avisos if a.donde.startswith("1.6")]
+
+
+def test_exportar_excel(banco, tmp_path):
+    from openpyxl import load_workbook
+    from presupuesto.exportar import exportar
+    p = semilla.presup1()
+    r = calcular(banco, p)
+    ruta = exportar(banco, p, r, tmp_path / "x.xlsx")
+    wb = load_workbook(ruta)
+    assert wb.sheetnames == ["Resumen", "Líneas", "Revisión"]
+    total = sum(row[10] for row in wb["Líneas"].iter_rows(min_row=2, values_only=True))
+    assert total == pytest.approx(r.directos_cop / r.fx, abs=0.01)
